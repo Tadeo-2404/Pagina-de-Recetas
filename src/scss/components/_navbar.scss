@@ -1,2 +1,30 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
 
+.navbar__home {
+    background-color: v.$verdeNavbar;
+
+    img {
+        width: 15rem;
+    }
+
+    img.img_toggle {
+        width: 2rem;
+    }
+
+    @include m.telefono {
+        .dropdown-menu {
+            background-color: v.$verdeNavbar;
+            border: none;
+    
+            .dropdown-item {
+                color: v.$blanco;
+            }
+
+            .dropdown-item:hover {
+                background-color: transparent;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
