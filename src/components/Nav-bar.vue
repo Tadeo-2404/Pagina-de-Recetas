@@ -18,13 +18,11 @@
             <router-link class="nav-link" to="/">Contacto</router-link>
           </li>
           <li class="nav-item dropdown">
-            <router-link class="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="/">Recetas</router-link>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Recetas</a>
             <ul class="dropdown-menu text-center">
               <li><router-link class="dropdown-item" to="/">Postres</router-link></li>
               <li><router-link class="dropdown-item" to="/">Mariscos</router-link></li>
               <li><router-link class="dropdown-item" to="/">Desayuno</router-link></li>
-              <li><router-link class="dropdown-item" to="/">Comida</router-link></li>
-              <li><router-link class="dropdown-item" to="/">Cena</router-link></li>
               <li><router-link class="dropdown-item" to="/">Ensaladas</router-link></li>
             </ul>
           </li>
