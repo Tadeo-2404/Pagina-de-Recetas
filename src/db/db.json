@@ -772,32 +772,6 @@
             },
             {
                 "id": "mariscos-9",
-                "nombre": "Camarones envueltos en papa",
-                "imagen": "public\\assets\\recetas\\mariscos\\camarones-envueltos-en-papa.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "No es por presumir, pero el sabor que estás por disfrutar en tu boca es algo que sólo los camarones envueltos en papa de podrán ofrecer. ¿Te animas a probarlos? ¡No te arrepentirás!"
-                },
-                "Ingredientes": 
-                [
-                  "1 papa",
-                  "12 camarones grandes pelados",
-                  "Aceite para freír",
-                  "1/3 taza de mermelada de naranja",
-                  "1 cucharada de mostaza Dijon",
-                  "3 cucharadas de salsa de soya",
-                  "12 hojas de menta"
-                ],
-                "pasos":
-                {
-                    "1": "Corta la papa en tiras muy delgadas con ayuda de una mandolina con el aditamento para tiras delgadas. Colócalas en agua fría durante 10 minutos. Escurre y envuelve los camarones con ellas.",
-                    "2": "Fríe los camarones en el aceite muy caliente hasta que la papa esté dorada.",
-                    "3": "Mezcla la mermelada con la mostaza y la salsa de soya.",
-                    "4": "Sirve los camarones con el aderezo y decora con las hojas de menta."
-                }
-            },
-            {
-                "id": "mariscos-10",
                 "nombre": "Coctel de camarones con fresa",
                 "imagen": "public\\assets\\recetas\\mariscos\\coctel-de-camaron-con-fresa.webp",
                 "descripcion": 
