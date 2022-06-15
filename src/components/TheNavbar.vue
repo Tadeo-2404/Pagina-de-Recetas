@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-sm navbar-dark navbar__home shadow"
+    class="navbar navbar-expand-sm navbar-dark navbar__home shadow fixed-top"
   >
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">

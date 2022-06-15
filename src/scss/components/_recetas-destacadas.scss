@@ -6,6 +6,11 @@
 
     .recetas-destacadas__items {
 
+        router-link {
+            max-height: 2rem;
+            min-height: 2rem;
+        }
+
         @include m.desktop {
            column-gap: 2rem;
         }

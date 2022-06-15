@@ -5,8 +5,9 @@
         [
             {
                 "id": "postre-1",
+                "grupo": "postres",
                 "nombre": "Fresas con Crema",
-                "imagen": "recetas/postres/fresas-con-crema.webp",
+                "imagen": "/postres/fresas-con-crema.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Esta receta de fresas con crema te quedará buenísima porque tenemos el ingrediente clave que le dará el sabor perfecto. ¡Conoce la receta!"
@@ -29,8 +30,9 @@
             },
             {
                 "id": "postre-2",
+                "grupo": "postres",
                 "nombre": "Merengue con fresas y helado",
-                "imagen": "recetas/postres/merengue-receta-helado-fresa.webp",
+                "imagen": "/postres/merengue-receta-helado-fresa.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¡Te traemos un postre irresistible! Prueba este merengue receta con fresas y helado que conquistará tu paladar con la primera probada."
@@ -54,8 +56,9 @@
             },
             {
                 "id": "postre-3",
+                "grupo": "postres",
                 "nombre": "Donas de enjambre con chocolate",
-                "imagen": "recetas/postres/donas-receta-enjambre.webp",
+                "imagen": "/postres/donas-receta-enjambre.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Disfruta del sabor de estas donas receta de enjambre con chocolate. Se volverán tu opción favorita para disfrutar tu bebida caliente."
@@ -79,8 +82,9 @@
             },
             {
                 "id": "postre-4",
+                "grupo": "postres",
                 "nombre": "Natilla casera de té verde",
-                "imagen": "recetas/postres/natilla-te-verde.webp",
+                "imagen": "/postres/natilla-te-verde.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si el té verde es uno de tus ingredientes favoritos, esta natilla casera te va a encantar. Te damos esta receta súper deliciosa y especial."
@@ -104,8 +108,9 @@
             },
             {
                 "id": "postre-5",
+                "grupo": "postres",
                 "nombre": "Galletas de avena con amaranto",
-                "imagen": "recetas/postres/galleta-avena-amaranto.webp",
+                "imagen": "/postres/galleta-avena-amaranto.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Mamá va a agradecerte que quieras consentirla con algo delicioso y saludable. Estas galletas de avena con amaranto son el detalle perfecto para ella."
@@ -131,8 +136,9 @@
             },
             {
                 "id": "postre-6",
+                "grupo": "postres",
                 "nombre": "Barritas de amaranto con crema de rompope",
-                "imagen": "recetas/postres/barritas-de-amaranto.webp",
+                "imagen": "/postres/barritas-de-amaranto.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Ya sea que estés buscando un postre saludable o un snack de medio día, las barritas de amaranto con crema de rompope son perfectas."
@@ -155,8 +161,9 @@
             },
             {
                 "id": "postre-7",
+                "grupo": "postres",
                 "nombre": "Cubitos de gelatina de rompope y cajeta",
-                "imagen": "recetas/postres/gelatina-rompope-y-cajeta.webp",
+                "imagen": "/postres/gelatina-rompope-y-cajeta.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Para crear un postre perfecto debes encontrar la mezcla ideal entre dos ingredientes, como estos cubitos de gelatina de rompope y cajeta."
@@ -178,8 +185,9 @@
             },
             {
                 "id": "postre-8",
+                "grupo": "postres",
                 "nombre": "Deliciosas crepas de queso cottage y peras",
-                "imagen": "recetas/postres/gelatina-rompope-y-cajeta.webp",
+                "imagen": "/postres/gelatina-rompope-y-cajeta.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Para crear un postre perfecto debes encontrar la mezcla ideal entre dos ingredientes, como estos cubitos de gelatina de rompope y cajeta."
@@ -198,8 +206,9 @@
             },
             {
                 "id": "postre-9",
+                "grupo": "postres",
                 "nombre": "Paletas heladas de blueberries",
-                "imagen": "recetas/postres/paletas-heladas-blueberries.webp",
+                "imagen": "/postres/paletas-heladas-blueberries.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¿Tienes antojo de un postre delicioso y natural? Estas ricas paletas heladas de blueberries son ideales para cuidar de tu salud y también consentirte con su delicioso sabor."
@@ -219,8 +228,9 @@
             },
             {
                 "id": "postre-10",
+                "grupo": "postres",
                 "nombre": "Bombones de avena",
-                "imagen": "recetas/postres/bombones-avena.webp",
+                "imagen": "/postres/bombones-avena.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si buscas una opción saludable de snacks para compartir con tu familia o amigos, estos bombones de avena son para ti."
@@ -245,6 +255,7 @@
         [
             {
                 "id": "ensalada-1",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada de pasta con atún",
                 "imagen": "/ensaladas/ensalada-de-pasta-con-atun.webp",
                 "descripcion": 
@@ -269,6 +280,7 @@
             },
             {
                 "id": "ensalada-2",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada de atún y aguacate",
                 "imagen": "/ensaladas/ensalada-de-atun-y-aguacate.webp",
                 "descripcion": 
@@ -292,6 +304,7 @@
             },
             {
                 "id": "ensalada-3",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada de pollo con mango, coco fresco y hojas verdes",
                 "imagen": "/ensaladas/ensalada-de-pollo-saludable.webp",
                 "descripcion": 
@@ -317,6 +330,7 @@
             },
             {
                 "id": "ensalada-4",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada mexicana con pollo",
                 "imagen": "/ensaladas/ensalada-mexicanacon-pollo.webp",
                 "descripcion": 
@@ -352,6 +366,7 @@
             },
             {
                 "id": "ensalada-5",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada tradicional mediterránea",
                 "imagen": "/ensaladas/ensalada-mediterranea.webp",
                 "descripcion": 
@@ -374,6 +389,7 @@
             },
             {
                 "id": "ensalada-6",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada griega con pasta",
                 "imagen": "/ensaladas/ensalada-griega-con-pasta.webp",
                 "descripcion": 
@@ -401,6 +417,7 @@
             },
             {
                 "id": "ensalada-7",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada de Vegetales Rostizados",
                 "imagen": "/ensaladas/ensalada-de-vegetales-rostizados.webp",
                 "descripcion": 
@@ -432,6 +449,7 @@
             },
             {
                 "id": "ensalada-8",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada de elote al grill súper fácil y prática",
                 "imagen": "/ensaladas/ensalada-de-elote-al-grill.webp",
                 "descripcion": 
@@ -456,6 +474,7 @@
             },
             {
                 "id": "ensalada-9",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada de betabel rostizado",
                 "imagen": "/ensaladas/ensalada-de-betabel-rostizado.webp",
                 "descripcion": 
@@ -487,6 +506,7 @@
             },
             {
                 "id": "ensalada-10",
+                "grupo": "ensaladas",
                 "nombre": "Ensalada oriental con aderezo de cilantro",
                 "imagen": "/ensaladas/ensalada-de-pollo-oriental.webp",
                 "descripcion": 
@@ -519,11 +539,12 @@
         [
             {
                 "id": "mariscos-1",
-                "nombre": "Camarones empanizados con coco y salsa de mango con habanero",
+                "grupo": "mariscos",
+                "nombre": "Camarones empanizados",
                 "imagen": "/mariscos/camarones-empanizados-con-coco-y-salsa-de-mango.webp",
                 "descripcion": 
                 {
-                    "cuerpo": "Hay algo muy especial en ciertas recetas, que su sabor se hace simplemente inolvidable. Una de ellas son estos camarones empanizados con coco y salsa de mango con habanero."
+                    "cuerpo": "Hay algo muy especial en ciertas recetas, que su sabor se hace simplemente inolvidable. Una de ellas son estos camarones empanizados."
                 },
                 "Ingredientes": 
                 [
@@ -547,6 +568,7 @@
             },
             {
                 "id": "mariscos-2",
+                "grupo": "mariscos",
                 "nombre": "Camarones envueltos en tocino con aderezo de durazno",
                 "imagen": "/mariscos/camarones-envueltos-con-tocino-salsa-durazno.webp",
                 "descripcion": 
@@ -577,6 +599,7 @@
             },
             {
                 "id": "mariscos-3",
+                "grupo": "mariscos",
                 "nombre": "Camarones al mojo de ajo con aderezo de guacamole",
                 "imagen": "/mariscos/camarones-al-mojo-de-ajo-con-aderezo.webp",
                 "descripcion": 
@@ -606,6 +629,7 @@
             },
             {
                 "id": "mariscos-4",
+                "grupo": "mariscos",
                 "nombre": "Sopa de mariscos",
                 "imagen": "/mariscos/sopa-de-mariscos.webp",
                 "descripcion": 
@@ -637,6 +661,7 @@
             },
             {
                 "id": "mariscos-5",
+                "grupo": "mariscos",
                 "nombre": "Sushi de camarón",
                 "imagen": "/mariscos/sushi-de-camarón.webp",
                 "descripcion": 
@@ -663,6 +688,7 @@
             },
             {
                 "id": "mariscos-6",
+                "grupo": "mariscos",
                 "nombre": "Brocheta de camarones a la diabla con chipotle",
                 "imagen": "/mariscos/brocheta-camarones-diabla-chipotle.webp",
                 "descripcion": 
@@ -694,6 +720,7 @@
             },
             {
                 "id": "mariscos-7",
+                "grupo": "mariscos",
                 "nombre": "Tostada de mariscos",
                 "imagen": "/mariscos/tostada-mariscos.webp",
                 "descripcion": 
@@ -720,6 +747,7 @@
             },
             {
                 "id": "mariscos-8",
+                "grupo": "mariscos",
                 "nombre": "Crema de haba con camarón y nopal",
                 "imagen": "/mariscos/crema-de-haba-con-camaron.webp",
                 "descripcion": 
@@ -746,6 +774,7 @@
             },
             {
                 "id": "mariscos-9",
+                "grupo": "mariscos",
                 "nombre": "Camarones envueltos en papa",
                 "imagen": "/mariscos/camarones-envueltos-en-papa.webp",
                 "descripcion": 
@@ -771,7 +800,8 @@
                 }
             },
             {
-                "id": "mariscos-9",
+                "id": "mariscos-10",
+                "grupo": "mariscos",
                 "nombre": "Coctel de camarones con fresa",
                 "imagen": "/mariscos/coctel-de-camaron-con-fresa.webp",
                 "descripcion": 
@@ -799,6 +829,7 @@
         [
             {
                 "id": "desayuno-1",
+                "grupo": "desayunos",
                 "nombre": "Hot-Cakes Clasicos",
                 "imagen": "/desayunos/desayuno-1.webp",
                 "descripcion": 
@@ -827,6 +858,7 @@
             },
             {
                 "id": "desayuno-3",
+                "grupo": "desayunos",
                 "nombre": "Sandwich mixto con huevo",
                 "imagen": "/desayunos/desayuno-3.webp",
                 "descripcion": 
@@ -853,6 +885,7 @@
             },
             {
                 "id": "desayuno-4",
+                "grupo": "desayunos",
                 "nombre": "Salchi-Tacos",
                 "imagen": "/desayunos/desayuno-4.webp",
                 "descripcion": 
@@ -877,6 +910,7 @@
             },
             {
                 "id": "desayuno-5",
+                "grupo": "desayunos",
                 "nombre": "Tostadas francesas",
                 "imagen": "/desayunos/desayuno-5.webp",
                 "descripcion": 
@@ -902,6 +936,7 @@
             },
             {
                 "id": "desayuno-6",
+                "grupo": "desayunos",
                 "nombre": "Omelet con espinacas y jamón",
                 "imagen": "/desayunos/desayuno-6.webp",
                 "descripcion": 
@@ -932,6 +967,7 @@
             },
             {
                 "id": "desayuno-7",
+                "grupo": "desayunos",
                 "nombre": "Cómo hacer huevos estrellados con papa",
                 "imagen": "/desayunos/desayuno-7.webp",
                 "descripcion": 
@@ -955,6 +991,7 @@
             },
             {
                 "id": "desayuno-8",
+                "grupo": "desayunos",
                 "nombre": "Mini hot cakes con plátano y maple",
                 "imagen": "/desayunos/desayuno-8.webp",
                 "descripcion": 
@@ -980,6 +1017,7 @@
             },
             {
                 "id": "desayuno-9",
+                "grupo": "desayunos",
                 "nombre": "Ricos hot cakes con tocino",
                 "imagen": "/desayunos/desayuno-9.webp",
                 "descripcion": 
@@ -1006,6 +1044,7 @@
             },
             {
                 "id": "desayuno-10",
+                "grupo": "desayunos",
                 "nombre": "Huevos tirados",
                 "imagen": "/desayunos/desayuno-10.webp",
                 "descripcion": 
