@@ -1,0 +1,21 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.receta-destacada {
+    background-color: v.$carnita;
+
+    .recetas-destacadas__items {
+
+        @include m.desktop {
+           column-gap: 2rem;
+        }
+
+        @include m.tablet {
+           gap: 2rem;
+        }
+
+        @include m.telefono {
+            gap: 2rem;
+        }
+    }
+}

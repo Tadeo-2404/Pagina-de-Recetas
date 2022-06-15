@@ -6,7 +6,7 @@
             {
                 "id": "postre-1",
                 "nombre": "Fresas con Crema",
-                "imagen": "public\\assets\\recetas\\postres\\fresas-con-crema.webp",
+                "imagen": "recetas/postres/fresas-con-crema.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Esta receta de fresas con crema te quedará buenísima porque tenemos el ingrediente clave que le dará el sabor perfecto. ¡Conoce la receta!"
@@ -30,7 +30,7 @@
             {
                 "id": "postre-2",
                 "nombre": "Merengue con fresas y helado",
-                "imagen": "public\\assets\\recetas\\postres\\merengue-receta-helado-fresa.wepb",
+                "imagen": "recetas/postres/merengue-receta-helado-fresa.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¡Te traemos un postre irresistible! Prueba este merengue receta con fresas y helado que conquistará tu paladar con la primera probada."
@@ -55,7 +55,7 @@
             {
                 "id": "postre-3",
                 "nombre": "Donas de enjambre con chocolate",
-                "imagen": "public\\assets\\recetas\\postres\\donas-receta-enjambre.webp",
+                "imagen": "recetas/postres/donas-receta-enjambre.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Disfruta del sabor de estas donas receta de enjambre con chocolate. Se volverán tu opción favorita para disfrutar tu bebida caliente."
@@ -80,7 +80,7 @@
             {
                 "id": "postre-4",
                 "nombre": "Natilla casera de té verde",
-                "imagen": "public\\assets\\recetas\\postres\\natilla-te-verde.webp",
+                "imagen": "recetas/postres/natilla-te-verde.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si el té verde es uno de tus ingredientes favoritos, esta natilla casera te va a encantar. Te damos esta receta súper deliciosa y especial."
@@ -105,7 +105,7 @@
             {
                 "id": "postre-5",
                 "nombre": "Galletas de avena con amaranto",
-                "imagen": "public\\assets\\recetas\\postres\\galleta-avena-amaranto.webp",
+                "imagen": "recetas/postres/galleta-avena-amaranto.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Mamá va a agradecerte que quieras consentirla con algo delicioso y saludable. Estas galletas de avena con amaranto son el detalle perfecto para ella."
@@ -132,7 +132,7 @@
             {
                 "id": "postre-6",
                 "nombre": "Barritas de amaranto con crema de rompope",
-                "imagen": "public\\assets\\recetas\\postres\\barritas-de-amaranto.webp",
+                "imagen": "recetas/postres/barritas-de-amaranto.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Ya sea que estés buscando un postre saludable o un snack de medio día, las barritas de amaranto con crema de rompope son perfectas."
@@ -156,7 +156,7 @@
             {
                 "id": "postre-7",
                 "nombre": "Cubitos de gelatina de rompope y cajeta",
-                "imagen": "public\\assets\\recetas\\postres\\gelatina-rompope-y-cajeta.webp",
+                "imagen": "recetas/postres/gelatina-rompope-y-cajeta.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Para crear un postre perfecto debes encontrar la mezcla ideal entre dos ingredientes, como estos cubitos de gelatina de rompope y cajeta."
@@ -179,7 +179,7 @@
             {
                 "id": "postre-8",
                 "nombre": "Deliciosas crepas de queso cottage y peras",
-                "imagen": "public\\assets\\recetas\\postres\\gelatina-rompope-y-cajeta.webp",
+                "imagen": "recetas/postres/gelatina-rompope-y-cajeta.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Para crear un postre perfecto debes encontrar la mezcla ideal entre dos ingredientes, como estos cubitos de gelatina de rompope y cajeta."
@@ -199,7 +199,7 @@
             {
                 "id": "postre-9",
                 "nombre": "Paletas heladas de blueberries",
-                "imagen": "public\\assets\\recetas\\postres\\paletas-heladas-blueberries.webp",
+                "imagen": "recetas/postres/paletas-heladas-blueberries.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¿Tienes antojo de un postre delicioso y natural? Estas ricas paletas heladas de blueberries son ideales para cuidar de tu salud y también consentirte con su delicioso sabor."
@@ -220,7 +220,7 @@
             {
                 "id": "postre-10",
                 "nombre": "Bombones de avena",
-                "imagen": "public\\assets\\recetas\\postres\\bombones-avena.webp",
+                "imagen": "recetas/postres/bombones-avena.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si buscas una opción saludable de snacks para compartir con tu familia o amigos, estos bombones de avena son para ti."
@@ -246,7 +246,7 @@
             {
                 "id": "ensalada-1",
                 "nombre": "Ensalada de pasta con atún",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-pasta-con-atun.webp",
+                "imagen": "/ensaladas/ensalada-de-pasta-con-atun.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si estás buscando una receta de temporada que sea deliciosa y también ligera, tienes que preparar esta ensalada de pasta con atun"
@@ -270,7 +270,7 @@
             {
                 "id": "ensalada-2",
                 "nombre": "Ensalada de atún y aguacate",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-atun-y-aguacate.webp",
+                "imagen": "/ensaladas/ensalada-de-atun-y-aguacate.webp",
                 "descripcion": 
                 {
                     "cuerpo": "La ensalada de aguacate con atún es una de las clásicas y favoritas para preparar de forma fácil y rápida. Nosotros queremos compartirla contigo para que la prepares de forma especial y muy deliciosa."
@@ -293,7 +293,7 @@
             {
                 "id": "ensalada-3",
                 "nombre": "Ensalada de pollo con mango, coco fresco y hojas verdes",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-pollo-saludable.webp",
+                "imagen": "/ensaladas/ensalada-de-pollo-saludable.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Date gusto con esta ensalada de pollo saludable con mango, coco fresco y hojas verdes."
@@ -318,7 +318,7 @@
             {
                 "id": "ensalada-4",
                 "nombre": "Ensalada mexicana con pollo",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-mexicanacon-pollo.webp",
+                "imagen": "/ensaladas/ensalada-mexicanacon-pollo.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Seguramente esta receta de ensalada mexicana será tu favorita, es la mezcla perfecta para disfrutar de forma saludable los mejores ingredientes."
@@ -353,7 +353,7 @@
             {
                 "id": "ensalada-5",
                 "nombre": "Ensalada tradicional mediterránea",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-mediterranea.webp",
+                "imagen": "/ensaladas/ensalada-mediterranea.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Las ensaladas son las guarniciones ideales, debido a que son ligeras, contienen una diversidad de sabores y también son muy saludables. Y esta tradicional ensalada mediterránea no es la excepción."
@@ -375,7 +375,7 @@
             {
                 "id": "ensalada-6",
                 "nombre": "Ensalada griega con pasta",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-griega-con-pasta.webp",
+                "imagen": "/ensaladas/ensalada-griega-con-pasta.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si eres fan de las ensaladas saludables y también te encanta la pasta, no dejes pasar esta ensalada griega con pasta"
@@ -402,7 +402,7 @@
             {
                 "id": "ensalada-7",
                 "nombre": "Ensalada de Vegetales Rostizados",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-vegetales-rostizados.webp",
+                "imagen": "/ensaladas/ensalada-de-vegetales-rostizados.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¿Quieres probar una ensalada nutritiva pero diferente? No puedes dejar pasar esta rica ensalada de verduras rostizadas"
@@ -433,7 +433,7 @@
             {
                 "id": "ensalada-8",
                 "nombre": "Ensalada de elote al grill súper fácil y prática",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-elote-al-grill.webp",
+                "imagen": "/ensaladas/ensalada-de-elote-al-grill.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¿Vas a comenzar la dieta? Si estás buscando opciones ricas y también formas de seguir disfrutando de tus sabores favoritos, no puedes dejar pasar esta rica ensalada de elote al grill. ¡Te va a encantar!"
@@ -457,7 +457,7 @@
             {
                 "id": "ensalada-9",
                 "nombre": "Ensalada de betabel rostizado",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-betabel-rostizado.webp",
+                "imagen": "/ensaladas/ensalada-de-betabel-rostizado.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Las ensaladas son geniales, porque nos dan la oportunidad de mezclar distintos alimentos y sabores que cautivan nuestro paladar. Y esta ensalada de betabel rostizado no es la excepción, ¡se convertirá en tu favorita!"
@@ -488,7 +488,7 @@
             {
                 "id": "ensalada-10",
                 "nombre": "Ensalada oriental con aderezo de cilantro",
-                "imagen": "public\\assets\\recetas\\ensaladas\\ensalada-de-pollo-oriental.webp",
+                "imagen": "/ensaladas/ensalada-de-pollo-oriental.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si lo que buscas son nuevas recetas, te recomendamos probar la ensalada oriental con aderezo de cilantro. Dale una oportunidad a este platillo."
@@ -520,7 +520,7 @@
             {
                 "id": "mariscos-1",
                 "nombre": "Camarones empanizados con coco y salsa de mango con habanero",
-                "imagen": "public\\assets\\recetas\\mariscos\\camarones-empanizados-con-coco-y-salsa-de-mango.webp",
+                "imagen": "/mariscos/camarones-empanizados-con-coco-y-salsa-de-mango.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Hay algo muy especial en ciertas recetas, que su sabor se hace simplemente inolvidable. Una de ellas son estos camarones empanizados con coco y salsa de mango con habanero."
@@ -548,7 +548,7 @@
             {
                 "id": "mariscos-2",
                 "nombre": "Camarones envueltos en tocino con aderezo de durazno",
-                "imagen": "public\\assets\\recetas\\mariscos\\camarones-envueltos-con-tocino-salsa-durazno.webp",
+                "imagen": "/mariscos/camarones-envueltos-con-tocino-salsa-durazno.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Las recetas originales son nuestras preferidas, especialmente si combinan ingredientes y crean sabores deliciosos e inesperados. Y hoy te decimos cómo hacer camarones envueltos en tocino con aderezo de durazno. Te conquistarán con la primera probada."
@@ -578,7 +578,7 @@
             {
                 "id": "mariscos-3",
                 "nombre": "Camarones al mojo de ajo con aderezo de guacamole",
-                "imagen": "public\\assets\\recetas\\mariscos\\camarones-al-mojo-de-ajo-con-aderezo.webp",
+                "imagen": "/mariscos/camarones-al-mojo-de-ajo-con-aderezo.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Si hoy tienes ganas de mariscos con un sabor muy tradicional, tenemos la receta ideal para ti: no te pierdas estos camarones al mojo de ajo, acompañados de un rico aderezo de guacamole que le darán un sabor simplemente espectacular. "
@@ -607,7 +607,7 @@
             {
                 "id": "mariscos-4",
                 "nombre": "Sopa de mariscos",
-                "imagen": "public\\assets\\recetas\\mariscos\\sopa-de-mariscos.webp",
+                "imagen": "/mariscos/sopa-de-mariscos.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Esta sopa de mariscos se va a convertir tu favorita después de que la prepares en casa con nuestra receta. Y, además, de deliciosa, es muy fácil de hacer."
@@ -638,7 +638,7 @@
             {
                 "id": "mariscos-5",
                 "nombre": "Sushi de camarón",
-                "imagen": "public\\assets\\recetas\\mariscos\\sushi-de-camarón.webp",
+                "imagen": "/mariscos/sushi-de-camarón.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Aprende a preparar un delicioso y clásico sushi de camarón, es una opción realmente fácil y rápida para compartir."
@@ -664,7 +664,7 @@
             {
                 "id": "mariscos-6",
                 "nombre": "Brocheta de camarones a la diabla con chipotle",
-                "imagen": "public\\assets\\recetas\\mariscos\\brocheta-camarones-diabla-chipotle.webp",
+                "imagen": "/mariscos/brocheta-camarones-diabla-chipotle.webp",
                 "descripcion": 
                 {
                     "cuerpo": "No dejes de probar una irresistible brocheta de camarones a la diabla con chipotle, perfecta para que la prepares en casa."
@@ -695,7 +695,7 @@
             {
                 "id": "mariscos-7",
                 "nombre": "Tostada de mariscos",
-                "imagen": "public\\assets\\recetas\\mariscos\\tostada-mariscos.webp",
+                "imagen": "/mariscos/tostada-mariscos.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Los mariscos son los reyes de las mesas, y una forma muy práctica y deliciosa de comerlos son con una tostada de mariscos."
@@ -721,7 +721,7 @@
             {
                 "id": "mariscos-8",
                 "nombre": "Crema de haba con camarón y nopal",
-                "imagen": "public\\assets\\recetas\\mariscos\\crema-de-haba-con-camaron.webp",
+                "imagen": "/mariscos/crema-de-haba-con-camaron.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Hoy no prepares lo mismo de siempre, sorprende a todos en casa con esta rica crema de haba con camarón y nopal."
@@ -747,7 +747,7 @@
             {
                 "id": "mariscos-9",
                 "nombre": "Camarones envueltos en papa",
-                "imagen": "public\\assets\\recetas\\mariscos\\camarones-envueltos-en-papa.webp",
+                "imagen": "/mariscos/camarones-envueltos-en-papa.webp",
                 "descripcion": 
                 {
                     "cuerpo": "No es por presumir, pero el sabor que estás por disfrutar en tu boca es algo que sólo los camarones envueltos en papa de podrán ofrecer. ¿Te animas a probarlos? ¡No te arrepentirás!"
@@ -773,7 +773,7 @@
             {
                 "id": "mariscos-9",
                 "nombre": "Coctel de camarones con fresa",
-                "imagen": "public\\assets\\recetas\\mariscos\\coctel-de-camaron-con-fresa.webp",
+                "imagen": "/mariscos/coctel-de-camaron-con-fresa.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Dale un giro a esta típica receta y clásico de los mariscos y aprende a preparar un delicioso coctel de camarones con fresa. ¡Será tu favorito!"
@@ -800,7 +800,7 @@
             {
                 "id": "desayuno-1",
                 "nombre": "Hot-Cakes Clasicos",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-1.webp",
+                "imagen": "/desayunos/desayuno-1.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Esta es la receta tradicional de los Hot-Cakes, ricos, fáciles y listos en pocos minutos.."
@@ -828,7 +828,7 @@
             {
                 "id": "desayuno-3",
                 "nombre": "Sandwich mixto con huevo",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-3.webp",
+                "imagen": "/desayunos/desayuno-3.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Deliciosa receta con huevos que acompaña sandwiches."
@@ -854,7 +854,7 @@
             {
                 "id": "desayuno-4",
                 "nombre": "Salchi-Tacos",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-4.webp",
+                "imagen": "/desayunos/desayuno-4.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Salchichas envuletas en tortillas de harina, no te las puedes perder."
@@ -878,7 +878,7 @@
             {
                 "id": "desayuno-5",
                 "nombre": "Tostadas francesas",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-5.webp",
+                "imagen": "/desayunos/desayuno-5.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Esta receta de tostadas francesas se prepara en pocos minutos, y te montas un desayuno o merienda de lujo con unos pocos ingredientes sencillos."
@@ -903,7 +903,7 @@
             {
                 "id": "desayuno-6",
                 "nombre": "Omelet con espinacas y jamón",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-6.webp",
+                "imagen": "/desayunos/desayuno-6.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Este platillo no solo es un desayuno muy rico, también tiene un alto valor nutricional, gracias a las espinacas"
@@ -933,7 +933,7 @@
             {
                 "id": "desayuno-7",
                 "nombre": "Cómo hacer huevos estrellados con papa",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-7.webp",
+                "imagen": "/desayunos/desayuno-7.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¿No sabes qué hacer para desayunar el día de hoy? Te enseñamos cómo hacer huevos estrellados con papa, ¡un desayuno rico y diferente que te encantará!"
@@ -956,7 +956,7 @@
             {
                 "id": "desayuno-8",
                 "nombre": "Mini hot cakes con plátano y maple",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-8.webp",
+                "imagen": "/desayunos/desayuno-8.webp",
                 "descripcion": 
                 {
                     "cuerpo": "¡Todos merecemos que nos lleven un rico desayuno a la cama! Dile a tu pareja que te prepare unos mini hot cakes con plátano y maple, una delicia."
@@ -981,7 +981,7 @@
             {
                 "id": "desayuno-9",
                 "nombre": "Ricos hot cakes con tocino",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-9.webp",
+                "imagen": "/desayunos/desayuno-9.webp",
                 "descripcion": 
                 {
                     "cuerpo": "Esta deliciosa combinación de sabores que te ofrecen unos ricos hot cakes con tocino los convertirán en tu desayuno favorito. ¿Se te antojaron?."
@@ -1007,7 +1007,7 @@
             {
                 "id": "desayuno-10",
                 "nombre": "Huevos tirados",
-                "imagen": "public\\assets\\recetas\\desayunos\\desayuno-10.webp",
+                "imagen": "/desayunos/desayuno-10.webp",
                 "descripcion": 
                 {
                     "cuerpo": "La receta perfecta para tener un desayuno de dioses definitivamente son estos exquisitos huevos tirados, una verdadera maravilla culinaria que te enamorará por su sencillez."
