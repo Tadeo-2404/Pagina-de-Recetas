@@ -23,9 +23,9 @@ const routes = [
     component: () => import('@/views/ViewsTemplate.vue')
   },
   {
-    path: '/recetas/desayunos/:nombre',
+    path: '/recetas/:grupo/:nombre',
     name: 'receta.grupo',
-    component: () => import('@/views/DesayunosShow.vue')
+    component: () => import('@/views/RecetaShow.vue')
   },
 ]
 

@@ -35,19 +35,16 @@ export default {
   data: function () {
 
     const {
-      recetas: { postres, ensaladas, mariscos, desayuno },
+      recetas
     } = datos;
 
-    const recetas_postres = postres.recetas;
-    const recetas_ensaladas = ensaladas.recetas;
-    const recetas_mariscos = mariscos.recetas;
-    const recetas_desayuno = desayuno.recetas;
-  
-    const destacados = [recetas_postres[0], recetas_ensaladas[0], recetas_mariscos[0], recetas_desayuno[0]];
+   let destacados = [];
+   destacados = recetas.map(receta => receta.recetas[0])
+
 
     return {
       datos,
-      destacados, 
+      destacados
     };
   },
 };

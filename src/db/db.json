@@ -1,7 +1,6 @@
 {
     "recetas": 
-    {
-        "postres":
+    [
         {
            "nombre":"postres",
            "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
@@ -256,7 +255,6 @@
             }
            ]
         },
-        "ensaladas":
         {
             "nombre": "ensaladas",
             "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
@@ -545,7 +543,6 @@
                 }
             ]
         },
-        "mariscos":
         {
             "nombre": "mariscos",
             "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
@@ -840,7 +837,6 @@
                 }
             ]
         },
-        "desayuno":
         {
             "nombre": "desayuno",
             "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
@@ -1091,5 +1087,5 @@
                 }
             ]
         }
-    }
+    ]
 }
