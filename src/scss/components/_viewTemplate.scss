@@ -1,0 +1,15 @@
+.viewTemplate-item  {
+    margin-top: 6rem;
+
+    h2 {
+        text-transform: capitalize;
+    }
+
+    .viewTemplate-item__wrapper {
+        gap: 2rem;
+
+        img {
+            max-height: 20rem;
+        }
+    }
+}
