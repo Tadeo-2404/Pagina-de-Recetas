@@ -23,7 +23,8 @@
           </div>
           <div class="text-center">
             <router-link class="btn btn-danger" :to="'/recetas/' + receta.grupo + '/' + receta.nombre">Ver Receta</router-link>
-          </div>        </div>
+          </div>        
+        </div>
       </div>
     </div>
   </div>
