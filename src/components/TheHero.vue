@@ -1,5 +1,5 @@
 <template>
-  <div class="hero container-fluid d-flex flex-column justify-content-center align-items-center">
+  <div class="hero d-flex flex-column justify-content-center align-items-center">
     <div class="hero__wrapper container-fluid d-flex flex-column justify-content-center align-items-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <div class="row mb-3">

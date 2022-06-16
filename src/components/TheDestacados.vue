@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid receta-destacada">
+  <div class="container-fluid receta-destacada g-0">
     <div class="container-fluid receta-destacada__wrapper p-2">
       <h2 class="text-center">Recetas Destacadas</h2>
-      <div class="row recetas-destacadas__items container-fluid justify-content-center mt-4">
+      <div class="row g-0 recetas-destacadas__items container-fluid justify-content-center mt-4">
         <div
           class="receta-destacada__container row col-lg-3 col-md-6 col-sm-12 container-fluid"
           v-for="receta in destacados"

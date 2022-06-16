@@ -1,0 +1,36 @@
+@use '../base/mixins' as m;
+
+.secciones {
+
+    .secciones__seccion {
+        height: 15rem;
+        text-decoration: none;
+
+        h2 {
+            width: fit-content;
+            padding: 1rem;
+            background-color: red;
+            color: white;
+        }
+
+        h2:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.secciones .secciones__seccion:nth-of-type(1) {
+    @include m.imagenFondo('/public/assets/recetas/desayunos/desayuno-5.webp');
+}
+
+.secciones .secciones__seccion:nth-of-type(2) {
+    @include m.imagenFondo('/public/assets/recetas/ensaladas/ensalada-de-atun-y-aguacate.webp');
+}
+
+.secciones .secciones__seccion:nth-of-type(3) {
+    @include m.imagenFondo('/public/assets/recetas/mariscos/camarones-empanizados-con-coco-y-salsa-de-mango.webp');
+}
+
+.secciones .secciones__seccion:nth-of-type(4) {
+    @include m.imagenFondo('/public/assets/recetas/postres/merengue-receta-helado-fresa.webp');
+}

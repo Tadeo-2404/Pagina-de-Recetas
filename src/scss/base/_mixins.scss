@@ -16,3 +16,10 @@
         @content;
     }
 }
+
+@mixin imagenFondo($path) {
+   background-image: url($path);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
