@@ -37,8 +37,13 @@ export default {
     const {
       recetas: { postres, ensaladas, mariscos, desayuno },
     } = datos;
+
+    const recetas_postres = postres.recetas;
+    const recetas_ensaladas = ensaladas.recetas;
+    const recetas_mariscos = mariscos.recetas;
+    const recetas_desayuno = desayuno.recetas;
   
-    const destacados = [postres[0], ensaladas[0], mariscos[0], desayuno[0]];
+    const destacados = [recetas_postres[0], recetas_ensaladas[0], recetas_mariscos[0], recetas_desayuno[0]];
 
     return {
       datos,

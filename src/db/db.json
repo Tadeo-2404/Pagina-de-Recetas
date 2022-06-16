@@ -1,8 +1,12 @@
 {
     "recetas": 
     {
-        "postres": 
-        [
+        "postres":
+        {
+           "nombre":"postres",
+           "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
+           "recetas":
+           [
             {
                 "id": "postre-1",
                 "grupo": "postres",
@@ -250,826 +254,842 @@
                     "4": "Forma pequeñas bolitas y colócalas sobre una charola cubierta con papel encerado. Llévalos al refrigerador por 10 minutos y disfruta."
                 }
             }
-        ],
+           ]
+        },
         "ensaladas":
-        [
-            {
-                "id": "ensalada-1",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada de pasta con atún",
-                "imagen": "/ensaladas/ensalada-de-pasta-con-atun.webp",
-                "descripcion": 
+        {
+            "nombre": "ensaladas",
+            "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
+            "recetas":
+            [
                 {
-                    "cuerpo": "Si estás buscando una receta de temporada que sea deliciosa y también ligera, tienes que preparar esta ensalada de pasta con atun"
+                    "id": "ensalada-1",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada de pasta con atún",
+                    "imagen": "/ensaladas/ensalada-de-pasta-con-atun.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Si estás buscando una receta de temporada que sea deliciosa y también ligera, tienes que preparar esta ensalada de pasta con atun"
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 manojo de jale troceado",
+                      "400 g de pasta de codito",
+                      "3 latas de atún troceado",
+                      "1 taza de jitomate deshidratado",
+                      "3 cdas. de balsámico",
+                      "5 cdas. de aceite de oliva",
+                      "2 cdas. de miel"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Cuece la pasta en agua hirviendo con sal, cuando esté suave, escurre.",
+                        "2": "Mezcla con el resto de los ingredientes, salpimienta y sirve."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 manojo de jale troceado",
-                  "400 g de pasta de codito",
-                  "3 latas de atún troceado",
-                  "1 taza de jitomate deshidratado",
-                  "3 cdas. de balsámico",
-                  "5 cdas. de aceite de oliva",
-                  "2 cdas. de miel"
-                ],
-                "pasos":
                 {
-                    "1": "Cuece la pasta en agua hirviendo con sal, cuando esté suave, escurre.",
-                    "2": "Mezcla con el resto de los ingredientes, salpimienta y sirve."
-                }
-            },
-            {
-                "id": "ensalada-2",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada de atún y aguacate",
-                "imagen": "/ensaladas/ensalada-de-atun-y-aguacate.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "La ensalada de aguacate con atún es una de las clásicas y favoritas para preparar de forma fácil y rápida. Nosotros queremos compartirla contigo para que la prepares de forma especial y muy deliciosa."
+                    "id": "ensalada-2",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada de atún y aguacate",
+                    "imagen": "/ensaladas/ensalada-de-atun-y-aguacate.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "La ensalada de aguacate con atún es una de las clásicas y favoritas para preparar de forma fácil y rápida. Nosotros queremos compartirla contigo para que la prepares de forma especial y muy deliciosa."
+                    },
+                    "Ingredientes": 
+                    [
+                      "500 g de atún fresco en cubos",
+                      "4 pepinillos rebanados",
+                      "1 aguacate en gajos",
+                      "1 cda. de ajonjolí",
+                      "4 cdas. de soya",
+                      "2 cdas. de aceite de ajonjolí",
+                      "5 cdas. de jugo de limón"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Mezcla todos los ingredientes en un tazón, salpimenta y sirve de inmediato."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "500 g de atún fresco en cubos",
-                  "4 pepinillos rebanados",
-                  "1 aguacate en gajos",
-                  "1 cda. de ajonjolí",
-                  "4 cdas. de soya",
-                  "2 cdas. de aceite de ajonjolí",
-                  "5 cdas. de jugo de limón"
-                ],
-                "pasos":
                 {
-                    "1": "Mezcla todos los ingredientes en un tazón, salpimenta y sirve de inmediato."
-                }
-            },
-            {
-                "id": "ensalada-3",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada de pollo con mango, coco fresco y hojas verdes",
-                "imagen": "/ensaladas/ensalada-de-pollo-saludable.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Date gusto con esta ensalada de pollo saludable con mango, coco fresco y hojas verdes."
+                    "id": "ensalada-3",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada de pollo con mango, coco fresco y hojas verdes",
+                    "imagen": "/ensaladas/ensalada-de-pollo-saludable.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Date gusto con esta ensalada de pollo saludable con mango, coco fresco y hojas verdes."
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 pechuga sin hueso y sin piel en fajitas",
+                      "1 taza de rábanos cortados en juliana",
+                      "4 corazones de lechuga",
+                      "1 coco rallado",
+                      "2 mangos en cubos",
+                      "2 tazas de berros",
+                      "4 limones"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Sella la pechuga en una sartén hasta que esté dorada",
+                        "2": "Corta los corazones de lechuga por la mitad",
+                        "3": "Sirve todos los ingredientes en un tazón acompañados de limones partidos por la mitad"
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 pechuga sin hueso y sin piel en fajitas",
-                  "1 taza de rábanos cortados en juliana",
-                  "4 corazones de lechuga",
-                  "1 coco rallado",
-                  "2 mangos en cubos",
-                  "2 tazas de berros",
-                  "4 limones"
-                ],
-                "pasos":
                 {
-                    "1": "Sella la pechuga en una sartén hasta que esté dorada",
-                    "2": "Corta los corazones de lechuga por la mitad",
-                    "3": "Sirve todos los ingredientes en un tazón acompañados de limones partidos por la mitad"
-                }
-            },
-            {
-                "id": "ensalada-4",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada mexicana con pollo",
-                "imagen": "/ensaladas/ensalada-mexicanacon-pollo.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Seguramente esta receta de ensalada mexicana será tu favorita, es la mezcla perfecta para disfrutar de forma saludable los mejores ingredientes."
+                    "id": "ensalada-4",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada mexicana con pollo",
+                    "imagen": "/ensaladas/ensalada-mexicanacon-pollo.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Seguramente esta receta de ensalada mexicana será tu favorita, es la mezcla perfecta para disfrutar de forma saludable los mejores ingredientes."
+                    },
+                    "Ingredientes": 
+                    [
+                      "4 tazas de corazones de lechuga fileteados",
+                      "4 pechugas de pollo",
+                      "2 cucharadas de aceite de oliva",
+                      "1 taza de granos de elote dorados",
+                      "1 aguacate en cubos",
+                      "1 taza de queso panela en cubos",
+                      "3 cucharadas de cebolla morada picada",
+                      "1 taza de tiras de tortilla fritas",
+                      "4 huevos de codorniz",
+                      "1 taza de frijoles cocidos",
+                      "1 taza de cherries partidos a la mitad",
+                      "8 cucharadas de aceite de oliva",
+                      "3 cucharadas de vinagre de manzana",
+                      "2 cucharadas de jugo de limón",
+                      "1 cucharada de miel",
+                      "1/2 cucharadita de orégano seco",
+                      "1 cucharada de echalote finamente picado"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Salpimienta el pollo, barniza con la mostaza y sella en una plancha de rayas con el aceite hasta que estén cocidas, deja reposar y rebana.",
+                        "2": "Mezcla los ingredientes de la vinagreta y salpimienta. Integra con la lechuga y divide en cuatro platos.",
+                        "3": "Acomoda el resto de los ingredientes sobre la lechuga y sirve."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "4 tazas de corazones de lechuga fileteados",
-                  "4 pechugas de pollo",
-                  "2 cucharadas de aceite de oliva",
-                  "1 taza de granos de elote dorados",
-                  "1 aguacate en cubos",
-                  "1 taza de queso panela en cubos",
-                  "3 cucharadas de cebolla morada picada",
-                  "1 taza de tiras de tortilla fritas",
-                  "4 huevos de codorniz",
-                  "1 taza de frijoles cocidos",
-                  "1 taza de cherries partidos a la mitad",
-                  "8 cucharadas de aceite de oliva",
-                  "3 cucharadas de vinagre de manzana",
-                  "2 cucharadas de jugo de limón",
-                  "1 cucharada de miel",
-                  "1/2 cucharadita de orégano seco",
-                  "1 cucharada de echalote finamente picado"
-                ],
-                "pasos":
                 {
-                    "1": "Salpimienta el pollo, barniza con la mostaza y sella en una plancha de rayas con el aceite hasta que estén cocidas, deja reposar y rebana.",
-                    "2": "Mezcla los ingredientes de la vinagreta y salpimienta. Integra con la lechuga y divide en cuatro platos.",
-                    "3": "Acomoda el resto de los ingredientes sobre la lechuga y sirve."
-                }
-            },
-            {
-                "id": "ensalada-5",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada tradicional mediterránea",
-                "imagen": "/ensaladas/ensalada-mediterranea.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Las ensaladas son las guarniciones ideales, debido a que son ligeras, contienen una diversidad de sabores y también son muy saludables. Y esta tradicional ensalada mediterránea no es la excepción."
+                    "id": "ensalada-5",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada tradicional mediterránea",
+                    "imagen": "/ensaladas/ensalada-mediterranea.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Las ensaladas son las guarniciones ideales, debido a que son ligeras, contienen una diversidad de sabores y también son muy saludables. Y esta tradicional ensalada mediterránea no es la excepción."
+                    },
+                    "Ingredientes": 
+                    [
+                      "Rábanos al gusto",
+                      "1/2 Jitomates cherry rojo y amarillo",
+                      "1 pepino",
+                      "Mix de hojas verde",
+                      "Jugo de 1 limón"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Mezcla los alimentos comenzando con las hojas verdes y los rábanos. Agrega, posteriormente, los rábanos y al final los jitomates.",
+                        "2": "Para finalizar, baña con jugo de limón."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "Rábanos al gusto",
-                  "1/2 Jitomates cherry rojo y amarillo",
-                  "1 pepino",
-                  "Mix de hojas verde",
-                  "Jugo de 1 limón"
-                ],
-                "pasos":
                 {
-                    "1": "Mezcla los alimentos comenzando con las hojas verdes y los rábanos. Agrega, posteriormente, los rábanos y al final los jitomates.",
-                    "2": "Para finalizar, baña con jugo de limón."
-                }
-            },
-            {
-                "id": "ensalada-6",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada griega con pasta",
-                "imagen": "/ensaladas/ensalada-griega-con-pasta.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Si eres fan de las ensaladas saludables y también te encanta la pasta, no dejes pasar esta ensalada griega con pasta"
+                    "id": "ensalada-6",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada griega con pasta",
+                    "imagen": "/ensaladas/ensalada-griega-con-pasta.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Si eres fan de las ensaladas saludables y también te encanta la pasta, no dejes pasar esta ensalada griega con pasta"
+                    },
+                    "Ingredientes": 
+                    [
+                      "4 tazas de pasta corta",
+                      "1 pepino cortado en rebanadas finas",
+                      "2 taza de jitomates cherry cortados por mitad",
+                      "1/2 taza de aceitunas",
+                      "1/2 taza de queso feta desmoronado",
+                      "Orégano al gusto",
+                      "Sal y pimienta",
+                      "Aceite de olivo extra virgen para acompañar",
+                      "1 limón el jugo"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Cocina la pasta de acuerdo a las instrucciones del empaque.",
+                        "2": "Coloca los ingredientes en un tazón amplio y mezcla con cuidado de no romperlo o batir los ingredientes.",
+                        "3": "Sazona con orégano, sal, pimienta, aceite de oliva y unas gotas de jugo de limón. Conserva en refrigeración hasta el momento de servir."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "4 tazas de pasta corta",
-                  "1 pepino cortado en rebanadas finas",
-                  "2 taza de jitomates cherry cortados por mitad",
-                  "1/2 taza de aceitunas",
-                  "1/2 taza de queso feta desmoronado",
-                  "Orégano al gusto",
-                  "Sal y pimienta",
-                  "Aceite de olivo extra virgen para acompañar",
-                  "1 limón el jugo"
-                ],
-                "pasos":
                 {
-                    "1": "Cocina la pasta de acuerdo a las instrucciones del empaque.",
-                    "2": "Coloca los ingredientes en un tazón amplio y mezcla con cuidado de no romperlo o batir los ingredientes.",
-                    "3": "Sazona con orégano, sal, pimienta, aceite de oliva y unas gotas de jugo de limón. Conserva en refrigeración hasta el momento de servir."
-                }
-            },
-            {
-                "id": "ensalada-7",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada de Vegetales Rostizados",
-                "imagen": "/ensaladas/ensalada-de-vegetales-rostizados.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "¿Quieres probar una ensalada nutritiva pero diferente? No puedes dejar pasar esta rica ensalada de verduras rostizadas"
+                    "id": "ensalada-7",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada de Vegetales Rostizados",
+                    "imagen": "/ensaladas/ensalada-de-vegetales-rostizados.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "¿Quieres probar una ensalada nutritiva pero diferente? No puedes dejar pasar esta rica ensalada de verduras rostizadas"
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 taza de jitomates cherry",
+                      "2 cdas. de aceite de oliva",
+                      "10 espárragos tiernos partidos en 3 partes",
+                      "2 tazas de pimientos de colores picados en cubos medianos",
+                      "2 tazas de alubias cocidas",
+                      "4 tazas de mix de lechugas",
+                      "1 taza de arúgula",
+                      "1 taza de col morada cortada",
+                      "Sal y pimienta al gusto",
+                      "Orégano en polvo al gusto",
+                      "Limón al gusto"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Precalienta el horno a 200° C por 5 minutos. Agrega los jitomates cherry a una charola",
+                        "2": "Sazona con un poco de sal y pimienta y unas gotas de aceite de oliva. Hornea por 10 minutos o hasta que adquieran un color dorado.",
+                        "3": "Coloca una sartén a fuego medio alto con un poco de aceite y agrega los espárragos, enseguida los pimientos y las alubias. Cocina moviendo constantemente hasta que tomen un ligero color dorado. Sazona con sal, pimienta, orégano y tomillo.",
+                        "4": "Sirve en un platón la lechuga, arúgula y col morada.",
+                        "5": "Mezcla todos los ingredientes uniformemente, salpimenta al gusto y sirve. Acompaña con un poco más de aceite y unas gotas de limón."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 taza de jitomates cherry",
-                  "2 cdas. de aceite de oliva",
-                  "10 espárragos tiernos partidos en 3 partes",
-                  "2 tazas de pimientos de colores picados en cubos medianos",
-                  "2 tazas de alubias cocidas",
-                  "4 tazas de mix de lechugas",
-                  "1 taza de arúgula",
-                  "1 taza de col morada cortada",
-                  "Sal y pimienta al gusto",
-                  "Orégano en polvo al gusto",
-                  "Limón al gusto"
-                ],
-                "pasos":
                 {
-                    "1": "Precalienta el horno a 200° C por 5 minutos. Agrega los jitomates cherry a una charola",
-                    "2": "Sazona con un poco de sal y pimienta y unas gotas de aceite de oliva. Hornea por 10 minutos o hasta que adquieran un color dorado.",
-                    "3": "Coloca una sartén a fuego medio alto con un poco de aceite y agrega los espárragos, enseguida los pimientos y las alubias. Cocina moviendo constantemente hasta que tomen un ligero color dorado. Sazona con sal, pimienta, orégano y tomillo.",
-                    "4": "Sirve en un platón la lechuga, arúgula y col morada.",
-                    "5": "Mezcla todos los ingredientes uniformemente, salpimenta al gusto y sirve. Acompaña con un poco más de aceite y unas gotas de limón."
-                }
-            },
-            {
-                "id": "ensalada-8",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada de elote al grill súper fácil y prática",
-                "imagen": "/ensaladas/ensalada-de-elote-al-grill.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "¿Vas a comenzar la dieta? Si estás buscando opciones ricas y también formas de seguir disfrutando de tus sabores favoritos, no puedes dejar pasar esta rica ensalada de elote al grill. ¡Te va a encantar!"
+                    "id": "ensalada-8",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada de elote al grill súper fácil y prática",
+                    "imagen": "/ensaladas/ensalada-de-elote-al-grill.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "¿Vas a comenzar la dieta? Si estás buscando opciones ricas y también formas de seguir disfrutando de tus sabores favoritos, no puedes dejar pasar esta rica ensalada de elote al grill. ¡Te va a encantar!"
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 elote amarillo",
+                      "1 elote blanco",
+                      "1 elote morado",
+                      "3 tazas de mix de lechugas",
+                      "2 chiles serranos en rodajas",
+                      "Sal al gusto"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Enciende el carbón a fuego medio",
+                        "2": "Coloca los elotes en el grill por 15 minutos dando vuelta constantemente para evitar que se quemen y retira.",
+                        "3": "Corta los elotes y mezcla con el resto de los ingredientes y sirve. Puedes acompañar con el aderezo de tu preferencia."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 elote amarillo",
-                  "1 elote blanco",
-                  "1 elote morado",
-                  "3 tazas de mix de lechugas",
-                  "2 chiles serranos en rodajas",
-                  "Sal al gusto"
-                ],
-                "pasos":
                 {
-                    "1": "Enciende el carbón a fuego medio",
-                    "2": "Coloca los elotes en el grill por 15 minutos dando vuelta constantemente para evitar que se quemen y retira.",
-                    "3": "Corta los elotes y mezcla con el resto de los ingredientes y sirve. Puedes acompañar con el aderezo de tu preferencia."
-                }
-            },
-            {
-                "id": "ensalada-9",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada de betabel rostizado",
-                "imagen": "/ensaladas/ensalada-de-betabel-rostizado.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Las ensaladas son geniales, porque nos dan la oportunidad de mezclar distintos alimentos y sabores que cautivan nuestro paladar. Y esta ensalada de betabel rostizado no es la excepción, ¡se convertirá en tu favorita!"
+                    "id": "ensalada-9",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada de betabel rostizado",
+                    "imagen": "/ensaladas/ensalada-de-betabel-rostizado.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Las ensaladas son geniales, porque nos dan la oportunidad de mezclar distintos alimentos y sabores que cautivan nuestro paladar. Y esta ensalada de betabel rostizado no es la excepción, ¡se convertirá en tu favorita!"
+                    },
+                    "Ingredientes": 
+                    [
+                      "4 betabeles blancos o del color de tu preferencia, limpios y sin piel",
+                      "4 corazones de lechuga partidos limpios y desinfectados",
+                      "1 taza de queso de cabra desmoronado",
+                      "4 cdas. de aceite de oliva",
+                      "4 ramitas de tomillo",
+                      "Orégano molido al gusto",
+                      "Para el aderezo de balsámico",
+                      "1 taza de vinagre balsámico",
+                      "1/2 taza de azúcar estándar",
+                      "1 hoja de laurel",
+                      "1 ramita de mejorana"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Coloca los betabeles enteros en un pedazo de papel aluminio de manera individual, es decir a 4 paquetitos, sazona con sal, pimienta, una ramita de tomillo y unas gotitas de aceite de oliva. Cierra muy bien y reserva.",
+                        "2": "Calienta el horno eléctrico a 200 °C por 5 minutos. Coloca los betabeles en el horno y cocina por alrededor de 35 minutos o hasta que estén perfectamente cocidos y tomen un ligero color dorado.",
+                        "3": "Retira los betabeles del horno y permite que reposen unos minutos.",
+                        "4": "Mientras tanto, coloca en una olla el vinagre balsámico, azúcar, laurel y mejorana, permite que hierva hasta que la mezcla se haga espesa y tenga consistencia de miel.",
+                        "5": "Para servir, coloca dos o 3 mitades de corazones de lechuga por plato, sirve con los betabeles partidos en cuartos, acompaña con el aderezo balsámico y queso de cabra desmoronado. Puedes enriquecer la ensalada con crutones, más vegetales o algunos brotes." 
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "4 betabeles blancos o del color de tu preferencia, limpios y sin piel",
-                  "4 corazones de lechuga partidos limpios y desinfectados",
-                  "1 taza de queso de cabra desmoronado",
-                  "4 cdas. de aceite de oliva",
-                  "4 ramitas de tomillo",
-                  "Orégano molido al gusto",
-                  "Para el aderezo de balsámico",
-                  "1 taza de vinagre balsámico",
-                  "1/2 taza de azúcar estándar",
-                  "1 hoja de laurel",
-                  "1 ramita de mejorana"
-                ],
-                "pasos":
                 {
-                    "1": "Coloca los betabeles enteros en un pedazo de papel aluminio de manera individual, es decir a 4 paquetitos, sazona con sal, pimienta, una ramita de tomillo y unas gotitas de aceite de oliva. Cierra muy bien y reserva.",
-                    "2": "Calienta el horno eléctrico a 200 °C por 5 minutos. Coloca los betabeles en el horno y cocina por alrededor de 35 minutos o hasta que estén perfectamente cocidos y tomen un ligero color dorado.",
-                    "3": "Retira los betabeles del horno y permite que reposen unos minutos.",
-                    "4": "Mientras tanto, coloca en una olla el vinagre balsámico, azúcar, laurel y mejorana, permite que hierva hasta que la mezcla se haga espesa y tenga consistencia de miel.",
-                    "5": "Para servir, coloca dos o 3 mitades de corazones de lechuga por plato, sirve con los betabeles partidos en cuartos, acompaña con el aderezo balsámico y queso de cabra desmoronado. Puedes enriquecer la ensalada con crutones, más vegetales o algunos brotes." 
+                    "id": "ensalada-10",
+                    "grupo": "ensaladas",
+                    "nombre": "Ensalada oriental con aderezo de cilantro",
+                    "imagen": "/ensaladas/ensalada-de-pollo-oriental.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Si lo que buscas son nuevas recetas, te recomendamos probar la ensalada oriental con aderezo de cilantro. Dale una oportunidad a este platillo."
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 lechuga romana o italiana cortada en juliana",
+                      "2 tazas de pollo desmenuzado",
+                      "1/4 de col roja cortada en tiras",
+                      "1 pimiento rojo en rodajas finas",
+                      "2 cebolletas en rodajas finas",
+                      "1/2 taza de cacahuates",
+                      "Sal y pimienta",
+                      "Para el aderezo",
+                      "2 tazas de hojas de cilantro",
+                      "4 limones, el jugo",
+                      "1/2 taza de aceite de oliva"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Procesa en la licuadora el cilantro, el jugo de limón y el aceite; salpimienta y reserva.",
+                        "2": "En un tazón grande sirve la lechuga con el pollo, la col, la cebolleta y el pimiento.",
+                        "3": "Presenta con el aderezo y algunos cacahuates"
+                    }
                 }
-            },
-            {
-                "id": "ensalada-10",
-                "grupo": "ensaladas",
-                "nombre": "Ensalada oriental con aderezo de cilantro",
-                "imagen": "/ensaladas/ensalada-de-pollo-oriental.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Si lo que buscas son nuevas recetas, te recomendamos probar la ensalada oriental con aderezo de cilantro. Dale una oportunidad a este platillo."
-                },
-                "Ingredientes": 
-                [
-                  "1 lechuga romana o italiana cortada en juliana",
-                  "2 tazas de pollo desmenuzado",
-                  "1/4 de col roja cortada en tiras",
-                  "1 pimiento rojo en rodajas finas",
-                  "2 cebolletas en rodajas finas",
-                  "1/2 taza de cacahuates",
-                  "Sal y pimienta",
-                  "Para el aderezo",
-                  "2 tazas de hojas de cilantro",
-                  "4 limones, el jugo",
-                  "1/2 taza de aceite de oliva"
-                ],
-                "pasos":
-                {
-                    "1": "Procesa en la licuadora el cilantro, el jugo de limón y el aceite; salpimienta y reserva.",
-                    "2": "En un tazón grande sirve la lechuga con el pollo, la col, la cebolleta y el pimiento.",
-                    "3": "Presenta con el aderezo y algunos cacahuates"
-                }
-            }
-        ],
+            ]
+        },
         "mariscos":
-        [
-            {
-                "id": "mariscos-1",
-                "grupo": "mariscos",
-                "nombre": "Camarones empanizados",
-                "imagen": "/mariscos/camarones-empanizados-con-coco-y-salsa-de-mango.webp",
-                "descripcion": 
+        {
+            "nombre": "mariscos",
+            "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
+            "recetas":
+            [
                 {
-                    "cuerpo": "Hay algo muy especial en ciertas recetas, que su sabor se hace simplemente inolvidable. Una de ellas son estos camarones empanizados."
+                    "id": "mariscos-1",
+                    "grupo": "mariscos",
+                    "nombre": "Camarones empanizados",
+                    "imagen": "/mariscos/camarones-empanizados-con-coco-y-salsa-de-mango.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Hay algo muy especial en ciertas recetas, que su sabor se hace simplemente inolvidable. Una de ellas son estos camarones empanizados."
+                    },
+                    "Ingredientes": 
+                    [
+                      "½ taza de cilantro picado",
+                      "20 camarones jumbo limpios y sin caparazón (conserva la parte inferior del caparazón).",
+                      "1 taza de harina",
+                      "1 taza de coco rallado",
+                      "2 huevos batidos",
+                      "1 L de aceite",
+                      "2 tazas de mango en cubos",
+                      "1 chile habanero",
+                      "Ajo en polvo al gusto"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Pasa los camarones por harina, sacude el exceso y pásalos por el huevo y luego por el coco rallado.",
+                        "2": "Calienta el aceite en una cacerola profunda a fuego medio, fríe los camarones hasta que obtengan un color dorado, retira del fuego y coloca sobre papel absorbente para escurrir el exceso de grasa.",
+                        "3": "Muele en licuadora el mango y habanero, sazona con ajo en polvo y sal.",
+                        "4": "Sirve los camarones y báñalos con la salsa; termina con un poco de cilantro para decorar."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "½ taza de cilantro picado",
-                  "20 camarones jumbo limpios y sin caparazón (conserva la parte inferior del caparazón).",
-                  "1 taza de harina",
-                  "1 taza de coco rallado",
-                  "2 huevos batidos",
-                  "1 L de aceite",
-                  "2 tazas de mango en cubos",
-                  "1 chile habanero",
-                  "Ajo en polvo al gusto"
-                ],
-                "pasos":
                 {
-                    "1": "Pasa los camarones por harina, sacude el exceso y pásalos por el huevo y luego por el coco rallado.",
-                    "2": "Calienta el aceite en una cacerola profunda a fuego medio, fríe los camarones hasta que obtengan un color dorado, retira del fuego y coloca sobre papel absorbente para escurrir el exceso de grasa.",
-                    "3": "Muele en licuadora el mango y habanero, sazona con ajo en polvo y sal.",
-                    "4": "Sirve los camarones y báñalos con la salsa; termina con un poco de cilantro para decorar."
-                }
-            },
-            {
-                "id": "mariscos-2",
-                "grupo": "mariscos",
-                "nombre": "Camarones envueltos en tocino con aderezo de durazno",
-                "imagen": "/mariscos/camarones-envueltos-con-tocino-salsa-durazno.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Las recetas originales son nuestras preferidas, especialmente si combinan ingredientes y crean sabores deliciosos e inesperados. Y hoy te decimos cómo hacer camarones envueltos en tocino con aderezo de durazno. Te conquistarán con la primera probada."
+                    "id": "mariscos-2",
+                    "grupo": "mariscos",
+                    "nombre": "Camarones envueltos en tocino con aderezo de durazno",
+                    "imagen": "/mariscos/camarones-envueltos-con-tocino-salsa-durazno.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Las recetas originales son nuestras preferidas, especialmente si combinan ingredientes y crean sabores deliciosos e inesperados. Y hoy te decimos cómo hacer camarones envueltos en tocino con aderezo de durazno. Te conquistarán con la primera probada."
+                    },
+                    "Ingredientes": 
+                    [
+                      "12 camarones medianos limpios",
+                      "8 rebanadas de tocino",
+                      "Sal y pimienta al gusto",
+                      "½ taza de aderezo teriyaki",
+                      "2 cdas. de perejil picado",
+                      "1 durazno sin semilla",
+                      "¼ de mermelada de durazno",
+                      "1 cda. de jugo de limón",
+                      "2 cdas. de miel",
+                      "3 cdas. de aceite de oliva",
+                      "2 chiles serranos despepitados"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Precalienta tu horno a 180 oC.",
+                        "2": "Sazona los camarones con sal y pimienta y envuélvelos con tocino. Barniza con aderezo teriyaki.",
+                        "3": "Acomoda los camarones en una charola y hornea por 15 minutos o hasta que luzcan dorados.",
+                        "4": "Para el aderezo licua todos los ingredientes. Sirve los camarones espolvoreados con perejil."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "12 camarones medianos limpios",
-                  "8 rebanadas de tocino",
-                  "Sal y pimienta al gusto",
-                  "½ taza de aderezo teriyaki",
-                  "2 cdas. de perejil picado",
-                  "1 durazno sin semilla",
-                  "¼ de mermelada de durazno",
-                  "1 cda. de jugo de limón",
-                  "2 cdas. de miel",
-                  "3 cdas. de aceite de oliva",
-                  "2 chiles serranos despepitados"
-                ],
-                "pasos":
                 {
-                    "1": "Precalienta tu horno a 180 oC.",
-                    "2": "Sazona los camarones con sal y pimienta y envuélvelos con tocino. Barniza con aderezo teriyaki.",
-                    "3": "Acomoda los camarones en una charola y hornea por 15 minutos o hasta que luzcan dorados.",
-                    "4": "Para el aderezo licua todos los ingredientes. Sirve los camarones espolvoreados con perejil."
-                }
-            },
-            {
-                "id": "mariscos-3",
-                "grupo": "mariscos",
-                "nombre": "Camarones al mojo de ajo con aderezo de guacamole",
-                "imagen": "/mariscos/camarones-al-mojo-de-ajo-con-aderezo.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Si hoy tienes ganas de mariscos con un sabor muy tradicional, tenemos la receta ideal para ti: no te pierdas estos camarones al mojo de ajo, acompañados de un rico aderezo de guacamole que le darán un sabor simplemente espectacular. "
+                    "id": "mariscos-3",
+                    "grupo": "mariscos",
+                    "nombre": "Camarones al mojo de ajo con aderezo de guacamole",
+                    "imagen": "/mariscos/camarones-al-mojo-de-ajo-con-aderezo.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Si hoy tienes ganas de mariscos con un sabor muy tradicional, tenemos la receta ideal para ti: no te pierdas estos camarones al mojo de ajo, acompañados de un rico aderezo de guacamole que le darán un sabor simplemente espectacular. "
+                    },
+                    "Ingredientes": 
+                    [
+                      "2 cdas. de aceite",
+                      "4 dientes de ajo picados",
+                      "2 chiles guajillos sin semillas y picados",
+                      "12 camarones medianos en mariposa",
+                      "Sal y pimienta",
+                      "3 tallos de cebolla cambray picados",
+                      "1 aguacate",
+                      "¼ cebolla",
+                      "2 chiles serranos sin semillas",
+                      "1 limón (el jugo)",
+                      "½ taza de yogur",
+                      "1 diente de ajo"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Calienta el aceite en una sartén junto con ajo y chile guajillo, cocina por unos minutos sin que tomen color. Agrega los camarones a la sartén, saltea hasta que cambien de color y sazona con sal y pimienta.",
+                        "2": "Para el aderezo de guacamole licua todos los ingredientes hasta que estén integrados. Sirve los camarones acompañados con este aderezo y espolvorea con tallos de cebolla cambray picados."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "2 cdas. de aceite",
-                  "4 dientes de ajo picados",
-                  "2 chiles guajillos sin semillas y picados",
-                  "12 camarones medianos en mariposa",
-                  "Sal y pimienta",
-                  "3 tallos de cebolla cambray picados",
-                  "1 aguacate",
-                  "¼ cebolla",
-                  "2 chiles serranos sin semillas",
-                  "1 limón (el jugo)",
-                  "½ taza de yogur",
-                  "1 diente de ajo"
-                ],
-                "pasos":
                 {
-                    "1": "Calienta el aceite en una sartén junto con ajo y chile guajillo, cocina por unos minutos sin que tomen color. Agrega los camarones a la sartén, saltea hasta que cambien de color y sazona con sal y pimienta.",
-                    "2": "Para el aderezo de guacamole licua todos los ingredientes hasta que estén integrados. Sirve los camarones acompañados con este aderezo y espolvorea con tallos de cebolla cambray picados."
-                }
-            },
-            {
-                "id": "mariscos-4",
-                "grupo": "mariscos",
-                "nombre": "Sopa de mariscos",
-                "imagen": "/mariscos/sopa-de-mariscos.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Esta sopa de mariscos se va a convertir tu favorita después de que la prepares en casa con nuestra receta. Y, además, de deliciosa, es muy fácil de hacer."
+                    "id": "mariscos-4",
+                    "grupo": "mariscos",
+                    "nombre": "Sopa de mariscos",
+                    "imagen": "/mariscos/sopa-de-mariscos.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Esta sopa de mariscos se va a convertir tu favorita después de que la prepares en casa con nuestra receta. Y, además, de deliciosa, es muy fácil de hacer."
+                    },
+                    "Ingredientes": 
+                    [
+                      "20 jitomates cherry",
+                      "2 dientes de ajo",
+                      "2 cdas. de aceite de oliva",
+                      "1 ½ litros de agua",
+                      "500 mL de vino blanco",
+                      "100 g de pulpos baby",
+                      "300 g de almejas chirla",
+                      "100 g de mejillones frescos",
+                      "150 g de camarones medianos",
+                      "150 g de pescado blanco cortado en cubos medianos"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Calienta en una olla el aceite de oliva. Agrega los jitomates cherry y sofríelos por dos minutos.",
+                        "2": "Añade el vino blanco y el ajo. Déjalo reducir a la mitad de su volumen.",
+                        "3": "Vierte el agua, calienta hasta que suelte el hervor. Reduce el fuego y agrega los pulpos.",
+                        "4": "Déjalos cocer cinco minutos más.",
+                        "5": "Incorpora el pescado, las almejas, loscamarones y los mejillones.",
+                        "6": "Calienta todo por cinco minutos más. Salpimienta y ofrece."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "20 jitomates cherry",
-                  "2 dientes de ajo",
-                  "2 cdas. de aceite de oliva",
-                  "1 ½ litros de agua",
-                  "500 mL de vino blanco",
-                  "100 g de pulpos baby",
-                  "300 g de almejas chirla",
-                  "100 g de mejillones frescos",
-                  "150 g de camarones medianos",
-                  "150 g de pescado blanco cortado en cubos medianos"
-                ],
-                "pasos":
                 {
-                    "1": "Calienta en una olla el aceite de oliva. Agrega los jitomates cherry y sofríelos por dos minutos.",
-                    "2": "Añade el vino blanco y el ajo. Déjalo reducir a la mitad de su volumen.",
-                    "3": "Vierte el agua, calienta hasta que suelte el hervor. Reduce el fuego y agrega los pulpos.",
-                    "4": "Déjalos cocer cinco minutos más.",
-                    "5": "Incorpora el pescado, las almejas, loscamarones y los mejillones.",
-                    "6": "Calienta todo por cinco minutos más. Salpimienta y ofrece."
-                }
-            },
-            {
-                "id": "mariscos-5",
-                "grupo": "mariscos",
-                "nombre": "Sushi de camarón",
-                "imagen": "/mariscos/sushi-de-camarón.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Aprende a preparar un delicioso y clásico sushi de camarón, es una opción realmente fácil y rápida para compartir."
+                    "id": "mariscos-5",
+                    "grupo": "mariscos",
+                    "nombre": "Sushi de camarón",
+                    "imagen": "/mariscos/sushi-de-camarón.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Aprende a preparar un delicioso y clásico sushi de camarón, es una opción realmente fácil y rápida para compartir."
+                    },
+                    "Ingredientes": 
+                    [
+                      "2 tazas de arroz para sushi cocido y sazonado",
+                      "2 camarones pacotilla",
+                      "1 aguacate en cubos pequeños",
+                      "1/2 barrita de queso crema partido en cubos chicos",
+                      "1 pepino en cubitos",
+                      "Ajonjolí tostado",
+                      "1/2 taza de salsa de soya",
+                      "2 limones (el jugo)",
+                      "1 molde para hacer hielos"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Barniza con aceite vegetal y un poco de agua los huecos del molde para hielos. Con ayuda de tus manos húmedas toma una porción pequeña de arroz y forra los huecos del molde a manera de que quede un hueco al centro para rellenar el sushi.",
+                        "2": "Rellena con un camarón, cubos de aguacate, queso y pepino. Decora con ajonjolí. Desmolda los cubitos de sushi y sirve fríos. Acompaña con salsa de soya mezclada con jugo de limón."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "2 tazas de arroz para sushi cocido y sazonado",
-                  "2 camarones pacotilla",
-                  "1 aguacate en cubos pequeños",
-                  "1/2 barrita de queso crema partido en cubos chicos",
-                  "1 pepino en cubitos",
-                  "Ajonjolí tostado",
-                  "1/2 taza de salsa de soya",
-                  "2 limones (el jugo)",
-                  "1 molde para hacer hielos"
-                ],
-                "pasos":
                 {
-                    "1": "Barniza con aceite vegetal y un poco de agua los huecos del molde para hielos. Con ayuda de tus manos húmedas toma una porción pequeña de arroz y forra los huecos del molde a manera de que quede un hueco al centro para rellenar el sushi.",
-                    "2": "Rellena con un camarón, cubos de aguacate, queso y pepino. Decora con ajonjolí. Desmolda los cubitos de sushi y sirve fríos. Acompaña con salsa de soya mezclada con jugo de limón."
-                }
-            },
-            {
-                "id": "mariscos-6",
-                "grupo": "mariscos",
-                "nombre": "Brocheta de camarones a la diabla con chipotle",
-                "imagen": "/mariscos/brocheta-camarones-diabla-chipotle.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "No dejes de probar una irresistible brocheta de camarones a la diabla con chipotle, perfecta para que la prepares en casa."
+                    "id": "mariscos-6",
+                    "grupo": "mariscos",
+                    "nombre": "Brocheta de camarones a la diabla con chipotle",
+                    "imagen": "/mariscos/brocheta-camarones-diabla-chipotle.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "No dejes de probar una irresistible brocheta de camarones a la diabla con chipotle, perfecta para que la prepares en casa."
+                    },
+                    "Ingredientes": 
+                    [
+                      "500 g de camarones frescos",
+                      "3 chiles chipotle adobados",
+                      "3 jitomates medianos",
+                      "2 dientes de ajo",
+                      "½ cebolla blanca",
+                      "7 chiles guajillo",
+                      "5 chile de árbol",
+                      "Sal",
+                      "Aceite"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Retira las semillas y las venas de los chiles",
+                        "2": "Pon en una cacerola con agua la cebolla, el ajo, el jitomate y los chiles. Calienta hasta que hiervan.",
+                        "3": "Licua todo e incorpora los chiles chipotle con un poco de sal.",
+                        "4": "Pela los camarones, retira la cabeza y la vena de la parte superior del lomo. Condiméntalos con sal y ajo.",
+                        "5": "Calienta el aceite en una sartén y agrega los camarones. Cuécelos hasta que pierdan el color gris del centro y hayan tomado un tono dorado.",
+                        "6": "Agrega la salsa y muévelos hasta que espesen.",
+                        "7": "Retíralos y deja que escurran un poco para insertarlos en palillos de madera especiales para brocheta."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "500 g de camarones frescos",
-                  "3 chiles chipotle adobados",
-                  "3 jitomates medianos",
-                  "2 dientes de ajo",
-                  "½ cebolla blanca",
-                  "7 chiles guajillo",
-                  "5 chile de árbol",
-                  "Sal",
-                  "Aceite"
-                ],
-                "pasos":
                 {
-                    "1": "Retira las semillas y las venas de los chiles",
-                    "2": "Pon en una cacerola con agua la cebolla, el ajo, el jitomate y los chiles. Calienta hasta que hiervan.",
-                    "3": "Licua todo e incorpora los chiles chipotle con un poco de sal.",
-                    "4": "Pela los camarones, retira la cabeza y la vena de la parte superior del lomo. Condiméntalos con sal y ajo.",
-                    "5": "Calienta el aceite en una sartén y agrega los camarones. Cuécelos hasta que pierdan el color gris del centro y hayan tomado un tono dorado.",
-                    "6": "Agrega la salsa y muévelos hasta que espesen.",
-                    "7": "Retíralos y deja que escurran un poco para insertarlos en palillos de madera especiales para brocheta."
-                }
-            },
-            {
-                "id": "mariscos-7",
-                "grupo": "mariscos",
-                "nombre": "Tostada de mariscos",
-                "imagen": "/mariscos/tostada-mariscos.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Los mariscos son los reyes de las mesas, y una forma muy práctica y deliciosa de comerlos son con una tostada de mariscos."
+                    "id": "mariscos-7",
+                    "grupo": "mariscos",
+                    "nombre": "Tostada de mariscos",
+                    "imagen": "/mariscos/tostada-mariscos.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Los mariscos son los reyes de las mesas, y una forma muy práctica y deliciosa de comerlos son con una tostada de mariscos."
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 paquete de tostadas de maíz",
+                      "250 g de camarón pacotilla",
+                      "250 g de aros de calamar cocidos y picados",
+                      "250 g de surimi finamente rebanado",
+                      "250 g de almejas picadas",
+                      "1/2 taza de jugo de limón",
+                      "1/4 de cebolla picada",
+                      "1/2 lechuga romana lavada, desinfectada y picada",
+                      "Sal y pimienta al gusto"
+                    ],
+                    "pasos":
+                    {
+                        "1": "En un trasto pon los mariscos y la cebolla, revuelve y báñalos con el jugo de limón; sazona con sal y pimienta, cubre con plástico autoadherible y refrigera 20 minutos.",
+                        "2": "Al momento de servir, distribuye la lechuga entre las tostadas, encima reparte la preparación de mariscos y acompaña con salsa."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 paquete de tostadas de maíz",
-                  "250 g de camarón pacotilla",
-                  "250 g de aros de calamar cocidos y picados",
-                  "250 g de surimi finamente rebanado",
-                  "250 g de almejas picadas",
-                  "1/2 taza de jugo de limón",
-                  "1/4 de cebolla picada",
-                  "1/2 lechuga romana lavada, desinfectada y picada",
-                  "Sal y pimienta al gusto"
-                ],
-                "pasos":
                 {
-                    "1": "En un trasto pon los mariscos y la cebolla, revuelve y báñalos con el jugo de limón; sazona con sal y pimienta, cubre con plástico autoadherible y refrigera 20 minutos.",
-                    "2": "Al momento de servir, distribuye la lechuga entre las tostadas, encima reparte la preparación de mariscos y acompaña con salsa."
-                }
-            },
-            {
-                "id": "mariscos-8",
-                "grupo": "mariscos",
-                "nombre": "Crema de haba con camarón y nopal",
-                "imagen": "/mariscos/crema-de-haba-con-camaron.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Hoy no prepares lo mismo de siempre, sorprende a todos en casa con esta rica crema de haba con camarón y nopal."
+                    "id": "mariscos-8",
+                    "grupo": "mariscos",
+                    "nombre": "Crema de haba con camarón y nopal",
+                    "imagen": "/mariscos/crema-de-haba-con-camaron.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Hoy no prepares lo mismo de siempre, sorprende a todos en casa con esta rica crema de haba con camarón y nopal."
+                    },
+                    "Ingredientes": 
+                    [
+                      "2 tazas de haba seca",
+                      "1 litro de caldo de pollo",
+                      "1 diente de ajo picado",
+                      "1/3 de cebolla picada",
+                      "3 cucharadas de mantequilla",
+                      "1/2 taza de nopal en cubos pequeños",
+                      "4 camarones medianos cocidos"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Coloca las habas en un tazón, vierte agua hirviendo sobre ellas e hidrátalas por una hora; retíralas del agua.",
+                        "2": "Fríe el ajo y la cebolla con la mantequilla, agrega las habas y fríe algunos minutos. Añade el caldo de pollo y cuece hasta que las habas estén suaves.",
+                        "3": "Licúa todo lo anterior hasta obtener una consistencia tersa.",
+                        "4": "Enjuaga los nopales bajo agua corriendo para retirar la baba y decora con ellos la crema. Termina con los camarones y sirve."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "2 tazas de haba seca",
-                  "1 litro de caldo de pollo",
-                  "1 diente de ajo picado",
-                  "1/3 de cebolla picada",
-                  "3 cucharadas de mantequilla",
-                  "1/2 taza de nopal en cubos pequeños",
-                  "4 camarones medianos cocidos"
-                ],
-                "pasos":
                 {
-                    "1": "Coloca las habas en un tazón, vierte agua hirviendo sobre ellas e hidrátalas por una hora; retíralas del agua.",
-                    "2": "Fríe el ajo y la cebolla con la mantequilla, agrega las habas y fríe algunos minutos. Añade el caldo de pollo y cuece hasta que las habas estén suaves.",
-                    "3": "Licúa todo lo anterior hasta obtener una consistencia tersa.",
-                    "4": "Enjuaga los nopales bajo agua corriendo para retirar la baba y decora con ellos la crema. Termina con los camarones y sirve."
-                }
-            },
-            {
-                "id": "mariscos-9",
-                "grupo": "mariscos",
-                "nombre": "Camarones envueltos en papa",
-                "imagen": "/mariscos/camarones-envueltos-en-papa.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "No es por presumir, pero el sabor que estás por disfrutar en tu boca es algo que sólo los camarones envueltos en papa de podrán ofrecer. ¿Te animas a probarlos? ¡No te arrepentirás!"
+                    "id": "mariscos-9",
+                    "grupo": "mariscos",
+                    "nombre": "Camarones envueltos en papa",
+                    "imagen": "/mariscos/camarones-envueltos-en-papa.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "No es por presumir, pero el sabor que estás por disfrutar en tu boca es algo que sólo los camarones envueltos en papa de podrán ofrecer. ¿Te animas a probarlos? ¡No te arrepentirás!"
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 papa",
+                      "12 camarones grandes pelados",
+                      "Aceite para freír",
+                      "1/3 taza de mermelada de naranja",
+                      "1 cucharada de mostaza Dijon",
+                      "3 cucharadas de salsa de soya",
+                      "12 hojas de menta"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Corta la papa en tiras muy delgadas con ayuda de una mandolina con el aditamento para tiras delgadas. Colócalas en agua fría durante 10 minutos. Escurre y envuelve los camarones con ellas.",
+                        "2": "Fríe los camarones en el aceite muy caliente hasta que la papa esté dorada.",
+                        "3": "Mezcla la mermelada con la mostaza y la salsa de soya.",
+                        "4": "Sirve los camarones con el aderezo y decora con las hojas de menta."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 papa",
-                  "12 camarones grandes pelados",
-                  "Aceite para freír",
-                  "1/3 taza de mermelada de naranja",
-                  "1 cucharada de mostaza Dijon",
-                  "3 cucharadas de salsa de soya",
-                  "12 hojas de menta"
-                ],
-                "pasos":
                 {
-                    "1": "Corta la papa en tiras muy delgadas con ayuda de una mandolina con el aditamento para tiras delgadas. Colócalas en agua fría durante 10 minutos. Escurre y envuelve los camarones con ellas.",
-                    "2": "Fríe los camarones en el aceite muy caliente hasta que la papa esté dorada.",
-                    "3": "Mezcla la mermelada con la mostaza y la salsa de soya.",
-                    "4": "Sirve los camarones con el aderezo y decora con las hojas de menta."
+                    "id": "mariscos-10",
+                    "grupo": "mariscos",
+                    "nombre": "Coctel de camarones con fresa",
+                    "imagen": "/mariscos/coctel-de-camaron-con-fresa.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Dale un giro a esta típica receta y clásico de los mariscos y aprende a preparar un delicioso coctel de camarones con fresa. ¡Será tu favorito!"
+                    },
+                    "Ingredientes": 
+                    [
+                      "20 camarones medianos cocidos",
+                      "1 taza de fresas rebanadas",
+                      "1/2 taza de catsup",
+                      "1 cucharada de mayonesa",
+                      "2 cucharadas de puré de fresa",
+                      "2 cucharadas de aceite de oliva",
+                      "2 cucharadas de jugo de limón"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Coloca en copas los camarones y las fresas.",
+                        "2": "Combina los ingredientes restantes y sirve con los camarones en copas."
+                    }
                 }
-            },
-            {
-                "id": "mariscos-10",
-                "grupo": "mariscos",
-                "nombre": "Coctel de camarones con fresa",
-                "imagen": "/mariscos/coctel-de-camaron-con-fresa.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Dale un giro a esta típica receta y clásico de los mariscos y aprende a preparar un delicioso coctel de camarones con fresa. ¡Será tu favorito!"
-                },
-                "Ingredientes": 
-                [
-                  "20 camarones medianos cocidos",
-                  "1 taza de fresas rebanadas",
-                  "1/2 taza de catsup",
-                  "1 cucharada de mayonesa",
-                  "2 cucharadas de puré de fresa",
-                  "2 cucharadas de aceite de oliva",
-                  "2 cucharadas de jugo de limón"
-                ],
-                "pasos":
-                {
-                    "1": "Coloca en copas los camarones y las fresas.",
-                    "2": "Combina los ingredientes restantes y sirve con los camarones en copas."
-                }
-            }
-        ],
+            ]
+        },
         "desayuno":
-        [
-            {
-                "id": "desayuno-1",
-                "grupo": "desayunos",
-                "nombre": "Hot-Cakes Clasicos",
-                "imagen": "/desayunos/desayuno-1.webp",
-                "descripcion": 
+        {
+            "nombre": "desayuno",
+            "descripcion": "Date un gustito dulce con nuestras recetas para postres, ya sea para compartir en familia o en pareja, nuestras recetas se adaptan a todo",
+            "recetas":
+            [
                 {
-                    "cuerpo": "Esta es la receta tradicional de los Hot-Cakes, ricos, fáciles y listos en pocos minutos.."
+                    "id": "desayuno-1",
+                    "grupo": "desayunos",
+                    "nombre": "Hot-Cakes Clasicos",
+                    "imagen": "/desayunos/desayuno-1.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Esta es la receta tradicional de los Hot-Cakes, ricos, fáciles y listos en pocos minutos.."
+                    },
+                    "Ingredientes": 
+                    [
+                      "100 gr. de harina",
+                      "Una pizca de sal",
+                      "1 cucharada de azúcar",
+                      "Una cucharadita de levadura",
+                      "Vainilla en polvo",
+                      "1 huevo",
+                      "1 vaso de leche",
+                      "1 cucharadita de mantequilla"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Mezclamos todos los ingredientes en el vaso de la batidora. Lo batimos hasta que quede una pasta muy ligada.",
+                        "2": "Ponemos mantequilla en una sartén de unos 10 cm. de diámetro y echamos unas cucharadas de pasta que cubra bien el fondo. No deben quedar muy finas porque parecen crepes, deben tener 1/2 cm. de grosor.",
+                        "3": "Luego, doramos 2 a 3 min. por un lado y damos la vuelta. El fuego no debe ser muy alto para que se hagan por igual y no se quemen.",
+                        "4": "Reservamos las tortitas al calor (dentro del horno) y servimos calientes con nata montada y caramelo, sirope o chocolate caliente. También podemos simplemente untar de mantequilla (cuando están calientes) y mermelada.",
+                        "5": "En los desayunos americanos las sirven con tocino (bacon) crujiente y huevos, que contrastan de maravilla con el ligero dulzor de las tortitas."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "100 gr. de harina",
-                  "Una pizca de sal",
-                  "1 cucharada de azúcar",
-                  "Una cucharadita de levadura",
-                  "Vainilla en polvo",
-                  "1 huevo",
-                  "1 vaso de leche",
-                  "1 cucharadita de mantequilla"
-                ],
-                "pasos":
                 {
-                    "1": "Mezclamos todos los ingredientes en el vaso de la batidora. Lo batimos hasta que quede una pasta muy ligada.",
-                    "2": "Ponemos mantequilla en una sartén de unos 10 cm. de diámetro y echamos unas cucharadas de pasta que cubra bien el fondo. No deben quedar muy finas porque parecen crepes, deben tener 1/2 cm. de grosor.",
-                    "3": "Luego, doramos 2 a 3 min. por un lado y damos la vuelta. El fuego no debe ser muy alto para que se hagan por igual y no se quemen.",
-                    "4": "Reservamos las tortitas al calor (dentro del horno) y servimos calientes con nata montada y caramelo, sirope o chocolate caliente. También podemos simplemente untar de mantequilla (cuando están calientes) y mermelada.",
-                    "5": "En los desayunos americanos las sirven con tocino (bacon) crujiente y huevos, que contrastan de maravilla con el ligero dulzor de las tortitas."
-                }
-            },
-            {
-                "id": "desayuno-3",
-                "grupo": "desayunos",
-                "nombre": "Sandwich mixto con huevo",
-                "imagen": "/desayunos/desayuno-3.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Deliciosa receta con huevos que acompaña sandwiches."
+                    "id": "desayuno-3",
+                    "grupo": "desayunos",
+                    "nombre": "Sandwich mixto con huevo",
+                    "imagen": "/desayunos/desayuno-3.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Deliciosa receta con huevos que acompaña sandwiches."
+                    },
+                    "Ingredientes": 
+                    [
+                      "2 rebanadas de pan de molde que sean firmes",
+                      "1 huevo",
+                      "Queso crema o mantequilla",
+                      "1 rebanada de jamón cocido que no sea muy fina",
+                      "1 rebanada de queso que funda bien"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Para empezar untamos las rebanadas de pan con el queso crema o mantequilla, lo que prefieras.",
+                        "2": "Rellenamos con la loncha de jamón y el queso y tapamos el sándwich.",
+                        "3": "Con el filo de una copa o un vaso presionamos la rebanada de arriba para hacer un agujero en el que nos quepa un huevo.",
+                        "4": "Retiramos el trozo de pan que hemos contorneado y cascamos el huevo dentro con cuidado de que no se salga por los lados. Salpimentamos ligeramente.",
+                        "5": "Ponemos un poco de queso rallado por los bordes del pan para que se dore mejor al gratinar.",
+                        "6": "Ponemos los sándwiches en una bandeja de horno sobre papel aluminio o papel satinado. Hay que hacerlos bajo el grill a 200 ºC en unos 10 o 12 minutos. depende de cada horno y de como te guste el huevo de cuajado."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "2 rebanadas de pan de molde que sean firmes",
-                  "1 huevo",
-                  "Queso crema o mantequilla",
-                  "1 rebanada de jamón cocido que no sea muy fina",
-                  "1 rebanada de queso que funda bien"
-                ],
-                "pasos":
                 {
-                    "1": "Para empezar untamos las rebanadas de pan con el queso crema o mantequilla, lo que prefieras.",
-                    "2": "Rellenamos con la loncha de jamón y el queso y tapamos el sándwich.",
-                    "3": "Con el filo de una copa o un vaso presionamos la rebanada de arriba para hacer un agujero en el que nos quepa un huevo.",
-                    "4": "Retiramos el trozo de pan que hemos contorneado y cascamos el huevo dentro con cuidado de que no se salga por los lados. Salpimentamos ligeramente.",
-                    "5": "Ponemos un poco de queso rallado por los bordes del pan para que se dore mejor al gratinar.",
-                    "6": "Ponemos los sándwiches en una bandeja de horno sobre papel aluminio o papel satinado. Hay que hacerlos bajo el grill a 200 ºC en unos 10 o 12 minutos. depende de cada horno y de como te guste el huevo de cuajado."
-                }
-            },
-            {
-                "id": "desayuno-4",
-                "grupo": "desayunos",
-                "nombre": "Salchi-Tacos",
-                "imagen": "/desayunos/desayuno-4.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Salchichas envuletas en tortillas de harina, no te las puedes perder."
+                    "id": "desayuno-4",
+                    "grupo": "desayunos",
+                    "nombre": "Salchi-Tacos",
+                    "imagen": "/desayunos/desayuno-4.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Salchichas envuletas en tortillas de harina, no te las puedes perder."
+                    },
+                    "Ingredientes": 
+                    [
+                      "Salchichas",
+                      "Aceite de oliva suave para freír",
+                      "Tortillas de Harina",
+                      "Recipiente para moldear"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Para empezar con un rodillo aplanamos la tortilla de Harina lo mas que sea posible",
+                        "2": "Colocamos después la salchicha en un extremo y vamos enrollandola en la tortilla.",
+                        "3": "Calentamos la sarten y mientras tanto atrevamos nuestras totillas envueltas con un palillo.",
+                        "4": "Freimos las rollitos hasta que esten bien dorados.",
+                        "5": "Procedemos a retirar y colocar en papel para que se absorba la grasa."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "Salchichas",
-                  "Aceite de oliva suave para freír",
-                  "Tortillas de Harina",
-                  "Recipiente para moldear"
-                ],
-                "pasos":
                 {
-                    "1": "Para empezar con un rodillo aplanamos la tortilla de Harina lo mas que sea posible",
-                    "2": "Colocamos después la salchicha en un extremo y vamos enrollandola en la tortilla.",
-                    "3": "Calentamos la sarten y mientras tanto atrevamos nuestras totillas envueltas con un palillo.",
-                    "4": "Freimos las rollitos hasta que esten bien dorados.",
-                    "5": "Procedemos a retirar y colocar en papel para que se absorba la grasa."
-                }
-            },
-            {
-                "id": "desayuno-5",
-                "grupo": "desayunos",
-                "nombre": "Tostadas francesas",
-                "imagen": "/desayunos/desayuno-5.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Esta receta de tostadas francesas se prepara en pocos minutos, y te montas un desayuno o merienda de lujo con unos pocos ingredientes sencillos."
+                    "id": "desayuno-5",
+                    "grupo": "desayunos",
+                    "nombre": "Tostadas francesas",
+                    "imagen": "/desayunos/desayuno-5.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Esta receta de tostadas francesas se prepara en pocos minutos, y te montas un desayuno o merienda de lujo con unos pocos ingredientes sencillos."
+                    },
+                    "Ingredientes": 
+                    [
+                      "4 rebanadas gruesas y firmes de pan de barra o de molde (las dejamos al aire unas horas antes para que se resequen un poco)",
+                      "2 huevos",
+                      "100 ml de leche o nata líquida ligera de cocina",
+                      "2 cucharadas de azúcar",
+                      "Mantequilla"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Batimos en un bol los huevos, leche o nata, vainilla, canela y azúcar.",
+                        "2": "Derretimos la mantequilla al fuego en una sartén antiadherente.",
+                        "3": "Vamos pasando las rebanadas de pan por el batido de huevos.",
+                        "4": "Después las sacamos y las pasamos por la sartén con la mantequilla caliente derretida. Dejamos que se doren por las dos caras.",
+                        "5": "Procedemos a servir."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "4 rebanadas gruesas y firmes de pan de barra o de molde (las dejamos al aire unas horas antes para que se resequen un poco)",
-                  "2 huevos",
-                  "100 ml de leche o nata líquida ligera de cocina",
-                  "2 cucharadas de azúcar",
-                  "Mantequilla"
-                ],
-                "pasos":
                 {
-                    "1": "Batimos en un bol los huevos, leche o nata, vainilla, canela y azúcar.",
-                    "2": "Derretimos la mantequilla al fuego en una sartén antiadherente.",
-                    "3": "Vamos pasando las rebanadas de pan por el batido de huevos.",
-                    "4": "Después las sacamos y las pasamos por la sartén con la mantequilla caliente derretida. Dejamos que se doren por las dos caras.",
-                    "5": "Procedemos a servir."
-                }
-            },
-            {
-                "id": "desayuno-6",
-                "grupo": "desayunos",
-                "nombre": "Omelet con espinacas y jamón",
-                "imagen": "/desayunos/desayuno-6.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Este platillo no solo es un desayuno muy rico, también tiene un alto valor nutricional, gracias a las espinacas"
+                    "id": "desayuno-6",
+                    "grupo": "desayunos",
+                    "nombre": "Omelet con espinacas y jamón",
+                    "imagen": "/desayunos/desayuno-6.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Este platillo no solo es un desayuno muy rico, también tiene un alto valor nutricional, gracias a las espinacas"
+                    },
+                    "Ingredientes": 
+                    [
+                      "1 manojo de espinacas",
+                      "4 huevos",
+                      "4 rebanadas de jamón",
+                      "4 rebanadas finas de queso gouda",
+                      "2 cucharadas de mantequilla",
+                      "Sal y pimienta"
+                    ],
+                    "pasos":
+                    {
+                        "1": " Lava las hojas en abundante agua y desinféctalas. Escúrrelas, dejando unas gotas de agua en las hojas, que servirán para su cocción.",
+                        "2": "Pica finamente las lonchas de queso gouda y divide en dos porciones",
+                        "3": "Calienta una sartén a fuego medio alto, sin aceite ni mantequilla, agrega las espinacas con un poco de sal, remueve constantemente hasta que estén completamente cocidas. Este paso no durará más de 1 minuto.",
+                        "4": "Una vez cocidas, colócalas en un colador y escúrrelas. Presiona suavemente con una cuchara para extraer la mayor cantidad de agua.",
+                        "5": "Pica finamente las espinacas, colócalas en un tazón y agrega los huevos, sal y pimienta. Bate con ayuda de un tenedor.",
+                        "6": "Calienta nuevamente la sartén, y agrega una cucharada de mantequilla, espera a que se derrita e inmediatamente agrega la mitad de la mezcla de huevo y espinaca.",
+                        "7": "Cocina el huevo, sin voltear, ayudándote de una espátula de plástico, para distribuir uniformemente las espinacas, hasta que el huevo comience a espesar.",
+                        "8": "Inclina un poco la sartén para distribuir el huevo de la parte central del omelete. Una vez que la tortilla de huevo esté firme, espolvorea, en una mitad de la tortilla una porción de queso y distribuye encima del queso 2 rebanadas de jamón.",
+                        "9": "Con la ayuda de la espátula, dobla la tortilla por la mitad, deja 30 segundos más en el fuego y transfiere el omelet de espinacas a un plato."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "1 manojo de espinacas",
-                  "4 huevos",
-                  "4 rebanadas de jamón",
-                  "4 rebanadas finas de queso gouda",
-                  "2 cucharadas de mantequilla",
-                  "Sal y pimienta"
-                ],
-                "pasos":
                 {
-                    "1": " Lava las hojas en abundante agua y desinféctalas. Escúrrelas, dejando unas gotas de agua en las hojas, que servirán para su cocción.",
-                    "2": "Pica finamente las lonchas de queso gouda y divide en dos porciones",
-                    "3": "Calienta una sartén a fuego medio alto, sin aceite ni mantequilla, agrega las espinacas con un poco de sal, remueve constantemente hasta que estén completamente cocidas. Este paso no durará más de 1 minuto.",
-                    "4": "Una vez cocidas, colócalas en un colador y escúrrelas. Presiona suavemente con una cuchara para extraer la mayor cantidad de agua.",
-                    "5": "Pica finamente las espinacas, colócalas en un tazón y agrega los huevos, sal y pimienta. Bate con ayuda de un tenedor.",
-                    "6": "Calienta nuevamente la sartén, y agrega una cucharada de mantequilla, espera a que se derrita e inmediatamente agrega la mitad de la mezcla de huevo y espinaca.",
-                    "7": "Cocina el huevo, sin voltear, ayudándote de una espátula de plástico, para distribuir uniformemente las espinacas, hasta que el huevo comience a espesar.",
-                    "8": "Inclina un poco la sartén para distribuir el huevo de la parte central del omelete. Una vez que la tortilla de huevo esté firme, espolvorea, en una mitad de la tortilla una porción de queso y distribuye encima del queso 2 rebanadas de jamón.",
-                    "9": "Con la ayuda de la espátula, dobla la tortilla por la mitad, deja 30 segundos más en el fuego y transfiere el omelet de espinacas a un plato."
-                }
-            },
-            {
-                "id": "desayuno-7",
-                "grupo": "desayunos",
-                "nombre": "Cómo hacer huevos estrellados con papa",
-                "imagen": "/desayunos/desayuno-7.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "¿No sabes qué hacer para desayunar el día de hoy? Te enseñamos cómo hacer huevos estrellados con papa, ¡un desayuno rico y diferente que te encantará!"
+                    "id": "desayuno-7",
+                    "grupo": "desayunos",
+                    "nombre": "Cómo hacer huevos estrellados con papa",
+                    "imagen": "/desayunos/desayuno-7.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "¿No sabes qué hacer para desayunar el día de hoy? Te enseñamos cómo hacer huevos estrellados con papa, ¡un desayuno rico y diferente que te encantará!"
+                    },
+                    "Ingredientes": 
+                    [
+                      "4 huevos estrellados",
+                      "1 papa en cubos",
+                      "200 g de tocino grueso en cubos",
+                      "½ taza de hojas de arúgula",
+                      "1 cda. de romero fresco picado",
+                      "2 cdas. de aceite de oliva"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Mezcla las papas con el tocino, romero y aceite de oliva, salpimienta en una sartén de hierro y hornea a 170 ºC durante 60 minutos.",
+                        "2": "Agrega los huevos y termina con arúgula."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "4 huevos estrellados",
-                  "1 papa en cubos",
-                  "200 g de tocino grueso en cubos",
-                  "½ taza de hojas de arúgula",
-                  "1 cda. de romero fresco picado",
-                  "2 cdas. de aceite de oliva"
-                ],
-                "pasos":
                 {
-                    "1": "Mezcla las papas con el tocino, romero y aceite de oliva, salpimienta en una sartén de hierro y hornea a 170 ºC durante 60 minutos.",
-                    "2": "Agrega los huevos y termina con arúgula."
-                }
-            },
-            {
-                "id": "desayuno-8",
-                "grupo": "desayunos",
-                "nombre": "Mini hot cakes con plátano y maple",
-                "imagen": "/desayunos/desayuno-8.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "¡Todos merecemos que nos lleven un rico desayuno a la cama! Dile a tu pareja que te prepare unos mini hot cakes con plátano y maple, una delicia."
+                    "id": "desayuno-8",
+                    "grupo": "desayunos",
+                    "nombre": "Mini hot cakes con plátano y maple",
+                    "imagen": "/desayunos/desayuno-8.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "¡Todos merecemos que nos lleven un rico desayuno a la cama! Dile a tu pareja que te prepare unos mini hot cakes con plátano y maple, una delicia."
+                    },
+                    "Ingredientes": 
+                    [
+                      "Harina",
+                      "Leche",
+                      "Huevo",
+                      "1 tbsp. de extracto de vainilla",
+                      "4 tbsp. de mantequilla",
+                      "1 plátano en rebanadas",
+                      "Miel de Maple"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Mezcla el huevo con la leche y el extracto de vainilla; después integra la harina hasta que la masa quede uniforme.",
+                        "2": "Vierte la masa en una jarra con punta y haz los hot cakes en una sartén grande con un poco de mantequilla; voltéalos sólo una vez para evitar que se sequen.",
+                        "3": "Corta las rebanadas de plátano con un cortador de galletas en forma de flor. Sirve los hot cakes y decora con el plátano, las moras azules y miel de maple. "
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "Harina",
-                  "Leche",
-                  "Huevo",
-                  "1 tbsp. de extracto de vainilla",
-                  "4 tbsp. de mantequilla",
-                  "1 plátano en rebanadas",
-                  "Miel de Maple"
-                ],
-                "pasos":
                 {
-                    "1": "Mezcla el huevo con la leche y el extracto de vainilla; después integra la harina hasta que la masa quede uniforme.",
-                    "2": "Vierte la masa en una jarra con punta y haz los hot cakes en una sartén grande con un poco de mantequilla; voltéalos sólo una vez para evitar que se sequen.",
-                    "3": "Corta las rebanadas de plátano con un cortador de galletas en forma de flor. Sirve los hot cakes y decora con el plátano, las moras azules y miel de maple. "
-                }
-            },
-            {
-                "id": "desayuno-9",
-                "grupo": "desayunos",
-                "nombre": "Ricos hot cakes con tocino",
-                "imagen": "/desayunos/desayuno-9.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "Esta deliciosa combinación de sabores que te ofrecen unos ricos hot cakes con tocino los convertirán en tu desayuno favorito. ¿Se te antojaron?."
+                    "id": "desayuno-9",
+                    "grupo": "desayunos",
+                    "nombre": "Ricos hot cakes con tocino",
+                    "imagen": "/desayunos/desayuno-9.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "Esta deliciosa combinación de sabores que te ofrecen unos ricos hot cakes con tocino los convertirán en tu desayuno favorito. ¿Se te antojaron?."
+                    },
+                    "Ingredientes": 
+                    [
+                      "2 tazas de harina para hot cakes",
+                      "1 1/2 tazas de leche fría",
+                      "2 huevos",
+                      "2 cdas. de mantequilla fundida",
+                      "1 cda. de azúcar",
+                      "1/2 taza de miel de maple",
+                      "250 g de tocino ahumado",
+                      "30 g de mantequilla"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Mezcla la leche con los huevos, el harina, el azúcar y la mantequilla fundida. Integra bien.",
+                        "2": "Vierte un poco de mezcla en una sartén grande a fuego medio con un poco de mantequilla. Cuece hasta que los costados comiencen a dorar. Voltea y cocina por un minuto más.",
+                        "3": "Fríe el tocino en otra sartén a fuego medio hasta que dore. Apila 2 ó 3 hot cakes por plato. Báñalos con un poco de miel de maple y agrega el tocino. Ofrece."
+                    }
                 },
-                "Ingredientes": 
-                [
-                  "2 tazas de harina para hot cakes",
-                  "1 1/2 tazas de leche fría",
-                  "2 huevos",
-                  "2 cdas. de mantequilla fundida",
-                  "1 cda. de azúcar",
-                  "1/2 taza de miel de maple",
-                  "250 g de tocino ahumado",
-                  "30 g de mantequilla"
-                ],
-                "pasos":
                 {
-                    "1": "Mezcla la leche con los huevos, el harina, el azúcar y la mantequilla fundida. Integra bien.",
-                    "2": "Vierte un poco de mezcla en una sartén grande a fuego medio con un poco de mantequilla. Cuece hasta que los costados comiencen a dorar. Voltea y cocina por un minuto más.",
-                    "3": "Fríe el tocino en otra sartén a fuego medio hasta que dore. Apila 2 ó 3 hot cakes por plato. Báñalos con un poco de miel de maple y agrega el tocino. Ofrece."
+                    "id": "desayuno-10",
+                    "grupo": "desayunos",
+                    "nombre": "Huevos tirados",
+                    "imagen": "/desayunos/desayuno-10.webp",
+                    "descripcion": 
+                    {
+                        "cuerpo": "La receta perfecta para tener un desayuno de dioses definitivamente son estos exquisitos huevos tirados, una verdadera maravilla culinaria que te enamorará por su sencillez."
+                    },
+                    "Ingredientes": 
+                    [
+                      "8 huevos",
+                      "1 cucharada de aceite",
+                      "1/2 taza de cebolla morada",
+                      "1 taza de queso Cotija desmoronado",
+                      "1/2 de taza de hojas de perejil",
+                      "1 chile ancho",
+                      "1 taza de frijoles cocidos",
+                      "1 taza de caldo de pollo"
+                    ],
+                    "pasos":
+                    {
+                        "1": "Retira las semillas del chile. Hiérvelo algunos minutos en el caldo de pollo.",
+                        "2": "Agrega la mitad de los frijoles y licúa la mezcla. Regrésalos a la olla con los enteros y sazona.",
+                        "3": "Bate los huevos. En una sartén grande, cuécelos para formar huevos revueltos.",
+                        "4": "Distribuye el huevo en los platos, báñalos con la salsa de frijol y termina con un poco de queso, cebolla morada y perejil."
+                    }
                 }
-            },
-            {
-                "id": "desayuno-10",
-                "grupo": "desayunos",
-                "nombre": "Huevos tirados",
-                "imagen": "/desayunos/desayuno-10.webp",
-                "descripcion": 
-                {
-                    "cuerpo": "La receta perfecta para tener un desayuno de dioses definitivamente son estos exquisitos huevos tirados, una verdadera maravilla culinaria que te enamorará por su sencillez."
-                },
-                "Ingredientes": 
-                [
-                  "8 huevos",
-                  "1 cucharada de aceite",
-                  "1/2 taza de cebolla morada",
-                  "1 taza de queso Cotija desmoronado",
-                  "1/2 de taza de hojas de perejil",
-                  "1 chile ancho",
-                  "1 taza de frijoles cocidos",
-                  "1 taza de caldo de pollo"
-                ],
-                "pasos":
-                {
-                    "1": "Retira las semillas del chile. Hiérvelo algunos minutos en el caldo de pollo.",
-                    "2": "Agrega la mitad de los frijoles y licúa la mezcla. Regrésalos a la olla con los enteros y sazona.",
-                    "3": "Bate los huevos. En una sartén grande, cuécelos para formar huevos revueltos.",
-                    "4": "Distribuye el huevo en los platos, báñalos con la salsa de frijol y termina con un poco de queso, cebolla morada y perejil."
-                }
-            }
-        ]
+            ]
+        }
     }
 }

@@ -33,7 +33,7 @@ import JSONData from "@/db/db.json";
 export default {
   computed: {
     receta() {
-      return JSONData.recetas.desayuno.find(receta => receta.nombre === this.$route.params.nombre)
+      return JSONData.recetas.desayuno.recetas.find(receta => receta.nombre === this.$route.params.nombre)
     },
   },
 };

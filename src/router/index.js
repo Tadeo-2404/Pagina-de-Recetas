@@ -18,28 +18,13 @@ const routes = [
     component: () => import('@/views/Contacto-Page.vue')
   },
   {
-    path: '/recetas/desayunos',
-    name: 'desayunos',
-    component: () => import('@/views/Desayuno-Page.vue')
-  },
-  {
-    path: '/recetas/postres',
-    name: 'postres',
-    component: () => import('@/views/Postres-Page.vue')
-  },
-  {
-    path: '/recetas/mariscos',
-    name: 'mariscos',
-    component: () => import('@/views/Mariscos-Page.vue')
-  },
-  {
-    path: '/recetas/ensaladas',
-    name: 'ensaladas',
-    component: () => import('@/views/Ensaladas-Page.vue')
+    path: '/recetas/:tipo',
+    name: 'recetas',
+    component: () => import('@/views/ViewsTemplate.vue')
   },
   {
     path: '/recetas/desayunos/:nombre',
-    name: 'ensaladas',
+    name: 'receta.grupo',
     component: () => import('@/views/DesayunosShow.vue')
   },
 ]
