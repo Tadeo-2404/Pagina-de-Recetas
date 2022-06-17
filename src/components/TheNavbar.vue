@@ -12,9 +12,6 @@
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav me-auto text-center">
           <li class="nav-item">
-            <router-link class="nav-link" to="/nosotros">Nosotros</router-link>
-          </li>
-          <li class="nav-item">
             <router-link class="nav-link" to="/contacto">Contacto</router-link>
           </li>
           <li class="nav-item dropdown">
