@@ -1,11 +1,11 @@
 <template>
   <div class="container-fluid p-4">
-    <h2 class="text-center">Tu Busqueda</h2>
+    <h2 class="text-center">Tu Busqueda: {{valor}}</h2>
     <div class="row g-0 container-fluid justify-content-center mt-4">
-        <p class="text-center h3">Resultados: {{arrRecetas.length}}</p>
+        <p class="text-center h3">Se han encontrado: {{arregloRecetas.length}} resultados</p>
         <div
           class="row col-lg-3 col-md-6 col-sm-12 container-fluid mt-4"
-          v-for="receta in arrRecetas"
+          v-for="receta in arregloRecetas"
           :key="receta.id">
           <div class="receta-destacada__img-wrapper">
             <img class="img-reponsive w-100 h-100" :alt="receta.id" :src="'/assets/recetas/' + receta.imagen">
@@ -30,30 +30,15 @@
 </template>
 
 <script>
-import JSONData from "@/db/db.json";
 export default {
   name: "TheBusqueda",
   props: {
     valor: String,
+    arregloRecetas: Array
   },
-  data: function() {
-      const ArregloRecetas = [];
-      let arrRecetas = [];
-      JSONData.recetas.map((tipo) => {
-        tipo.recetas.map((receta) => ArregloRecetas.push(receta));
-      });
-
-      ArregloRecetas.find((receta) => {
-        const nombre = receta.nombre.toLowerCase();
-        if (nombre.includes(this.valor)) {
-          arrRecetas.push(receta);
-        }
-      });
-
-      console.log(arrRecetas)
-
-    return {
-        arrRecetas,
+  methods: {
+    capturarArreglo() {
+        return this.arregloRecetas
     }
   }
 };
