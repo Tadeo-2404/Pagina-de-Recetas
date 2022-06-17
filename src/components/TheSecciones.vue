@@ -17,10 +17,7 @@
 
 <script>
 export default {
-   name: "TheSecciones",
-   data : function() {
-
-   }
+   name: "TheSecciones"
 }
 </script>
 

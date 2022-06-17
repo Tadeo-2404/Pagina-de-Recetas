@@ -1,9 +1,14 @@
 <template>
-  <Hero-section @generarHTML="generarHTMLBusqueda"  @actualizarArreglo="actualizarArreglo" />
-  <The-busquda v-if="valor" :valor="valor" :arregloRecetas="arregloRecetas"/>
-  <The-secciones />
-  <Recetas-destacadas-section />
-  <The-footer />
+  <div class="home-page">
+    <Hero-section
+      @generarHTML="generarHTMLBusqueda"
+      @actualizarArreglo="actualizarArreglo"
+    />
+    <The-busquda v-if="valor" :valor="valor" :arregloRecetas="arregloRecetas" />
+    <The-secciones />
+    <Recetas-destacadas-section />
+    <The-footer />
+  </div>
 </template>
 
 <script>
@@ -24,18 +29,18 @@ export default {
     return {
       busqueda: false,
       valor: undefined,
-      arregloRecetas: null
+      arregloRecetas: null,
     };
   },
   methods: {
-    generarHTMLBusqueda(valor, busqueda,) {
+    generarHTMLBusqueda(valor, busqueda) {
       this.busqueda = valor;
       this.valor = busqueda;
     },
     actualizarArreglo(arreglo) {
-       this.arregloRecetas = [];
-       this.arregloRecetas = arreglo
-    }
+      this.arregloRecetas = [];
+      this.arregloRecetas = arreglo;
+    },
   },
 };
 </script>

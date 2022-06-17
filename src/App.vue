@@ -1,7 +1,13 @@
 <template>
    <Nav-bar/>
    <The-go-back-btn/>
-   <router-view/>
+   <div class="container__app">
+   <router-view v-slot="{Component}">
+      <transition name="scale" mode="out-in">
+        <component :is="Component" :key="$router.path"/>
+      </transition>
+   </router-view>
+   </div>
 </template>
 
 <script>
