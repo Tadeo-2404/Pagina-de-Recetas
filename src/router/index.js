@@ -22,6 +22,11 @@ const routes = [
     name: 'receta.grupo',
     component: () => import('@/views/RecetaShow.vue')
   },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: () => import('@/views/NotFound.vue')
+  }
 ]
 
 const router = createRouter({
