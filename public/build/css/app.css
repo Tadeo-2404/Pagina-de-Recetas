@@ -1,0 +1,140 @@
+/** Media Queries **/
+.navbar__home {
+  background-color: #47753C;
+}
+.navbar__home img {
+  width: 15rem;
+}
+.navbar__home img.img_toggle {
+  width: 2rem;
+}
+@media (min-width: 320px) {
+  .navbar__home .dropdown-menu {
+    background-color: #47753C;
+    border: none;
+  }
+  .navbar__home .dropdown-menu .dropdown-item {
+    color: white;
+  }
+  .navbar__home .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+  }
+}
+
+.hero {
+  margin-top: 5.5rem;
+  background-image: url(../public/assets/hero-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.receta-destacada {
+  background-color: #faedcd;
+}
+.receta-destacada .recetas-destacadas__items router-link {
+  max-height: 2rem;
+  min-height: 2rem;
+}
+@media (min-width: 1024px) {
+  .receta-destacada .recetas-destacadas__items {
+    column-gap: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .receta-destacada .recetas-destacadas__items {
+    gap: 2rem;
+  }
+}
+@media (min-width: 320px) {
+  .receta-destacada .recetas-destacadas__items {
+    gap: 2rem;
+  }
+}
+
+.secciones .secciones__seccion {
+  height: 15rem;
+  text-decoration: none;
+}
+.secciones .secciones__seccion h2 {
+  width: fit-content;
+  padding: 1rem;
+  background-color: red;
+  color: white;
+}
+.secciones .secciones__seccion h2:hover {
+  transform: scale(1.1);
+}
+
+.secciones .secciones__seccion:nth-of-type(1) {
+  background-image: url("/public/assets/recetas/desayunos/desayuno-5.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secciones .secciones__seccion:nth-of-type(2) {
+  background-image: url("/public/assets/recetas/ensaladas/ensalada-de-atun-y-aguacate.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secciones .secciones__seccion:nth-of-type(3) {
+  background-image: url("/public/assets/recetas/mariscos/camarones-empanizados-con-coco-y-salsa-de-mango.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secciones .secciones__seccion:nth-of-type(4) {
+  background-image: url("/public/assets/recetas/postres/merengue-receta-helado-fresa.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.recetaShow-item {
+  margin-top: 5rem;
+}
+
+.viewTemplate-item {
+  margin-top: 6rem;
+}
+.viewTemplate-item h2 {
+  text-transform: capitalize;
+}
+.viewTemplate-item .viewTemplate-item__wrapper {
+  gap: 2rem;
+}
+.viewTemplate-item .viewTemplate-item__wrapper img {
+  max-height: 20rem;
+}
+
+.go-back {
+  font-size: 3.5rem;
+}
+
+.form__wrapper {
+  margin-top: 6rem;
+}
+
+.scale-enter-active,
+.scale-leave-active {
+  transition: all 0.4s ease-in;
+}
+
+.scale-enter-from,
+.scale-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.not-found-page {
+  height: 100vh;
+}
+.not-found-page img {
+  width: 15rem;
+}

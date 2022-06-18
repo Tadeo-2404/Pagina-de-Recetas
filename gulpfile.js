@@ -1,10 +1,20 @@
 const { src, dest, parallel } = require("gulp");
+const sass = require('gulp-sass')(require('sass'));
+const plumber = require('gulp-plumber');
 
 // Imagenes
 const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 
+function css( done ){
+    src('src/scss/**/*.scss') // Identificar archivo .scss
+        .pipe( plumber() )
+        .pipe( sass() ) // Compilarlo
+        .pipe( dest('public/build/css') ); // Almacenarlo
+ 
+    done();
+}
  
 function imagenes(done) {
     const opciones = {
@@ -31,4 +41,5 @@ function versionWebp(done) {
  
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
-exports.dev = parallel(versionWebp, imagenes);
+exports.css = css;
+exports.dev = parallel(css, versionWebp, imagenes);
