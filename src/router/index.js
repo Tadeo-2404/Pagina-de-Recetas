@@ -16,20 +16,7 @@ const routes = [
   {
     path: '/recetas/:tipo',
     name: 'recetas',
-    component: () => import('@/views/ViewsTemplate.vue'),
-    beforeEnter(to) {
-      const ArregloRecetas = [];
-      JSONData.recetas.map(tipo => {
-         tipo.recetas.map(receta => ArregloRecetas.push(receta))
-      });
-
-      const receta = ArregloRecetas.find(receta => receta.nombre === to.params.nombre);
-      if(receta == undefined) {
-        return {
-          name: "NotFound"
-        }
-      }
-    },
+    component: () => import('@/views/ViewsTemplate.vue')
   },
   {
     path: '/recetas/:grupo/:nombre',
@@ -58,7 +45,13 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+     return savedPosition || new Promise((resolve) => {
+        setTimeout(() => resolve( {top: 0, behavior: "smooth"} ), 300)
+     })
+  
+  }
 })
 
 export default router
